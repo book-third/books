@@ -1,0 +1,276 @@
+#box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0; }
+  #box #mulu-header {
+    width: 100%;
+    height: 1.3rem;
+    background: #29A6DC; }
+    #box #mulu-header div:nth-of-type(1) {
+      width: 0.5rem;
+      height: 0.5rem;
+      background: #FAFAFA;
+      color: #41B0DF;
+      font-size: 0.3rem;
+      text-align: center;
+      line-height: 0.5rem;
+      margin-left: 0.4rem;
+      margin-top: 0.5rem;
+      border-radius: 50%;
+      float: left; }
+    #box #mulu-header ul {
+      width: 5rem;
+      height: 1rem;
+      background: #2A3441;
+      border-radius: 50px;
+      float: left;
+      margin-left: 0.3rem;
+      margin-top: 0.2rem;
+      font-size: 0.3rem;
+      color: #FFFFFF;
+      font-size: 0.5rem; }
+      #box #mulu-header ul .headertop {
+        width: 33.33%;
+        height: 0.7rem;
+        border-right: 1px solid #fff;
+        margin-top: 0.15rem;
+        position: relative;
+        float: left; }
+        #box #mulu-header ul .headertop .yuan {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          right: -1.5px;
+          top: 7px; }
+        #box #mulu-header ul .headertop .yuan:nth-of-type(2) {
+          top: 0.5px; }
+        #box #mulu-header ul .headertop .bt-mulu {
+          width: 80%;
+          height: 0.6rem;
+          border-radius: 50px;
+          text-align: center;
+          margin-left: 0.15rem;
+          float: left; }
+          #box #mulu-header ul .headertop .bt-mulu p {
+            font-size: 14px;
+            line-height: 14px;
+            margin-top: 4px; }
+          #box #mulu-header ul .headertop .bt-mulu span {
+            display: block;
+            font-size: 10px;
+            text-align: center;
+            line-height: 10px; }
+      #box #mulu-header ul .headertop:nth-of-type(2) .yuan {
+        right: -2px; }
+      #box #mulu-header ul .headertop:nth-of-type(3) {
+        width: 32%;
+        border-right: 0; }
+      #box #mulu-header ul .bt-sq {
+        width: 30%;
+        height: 0.7rem;
+        float: left;
+        text-align: center;
+        line-height: 0.7rem;
+        margin-top: 0.25rem;
+        margin-left: 0.25rem;
+        border-left: 1px solid #EFEFEF; }
+      #box #mulu-header ul .bt-bj {
+        width: 30%;
+        height: 0.7rem;
+        float: left;
+        line-height: 0.7rem;
+        text-align: center;
+        margin-top: 0.25rem;
+        margin-left: 0.25rem;
+        border-left: 1px solid #EFEFEF; }
+  #box .active {
+    background: #29A6DC;
+    border: 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF; }
+  #box .jilu {
+    width: 100%;
+    height: 0.6rem;
+    background: #E5E5E5;
+    font-size: 16px;
+    color: #B5B5B5;
+    text-align: center;
+    line-height: 0.6rem; }
+  #box #list-box {
+    width: 100%;
+    height: auto; }
+    #box #list-box .list {
+      width: 100%;
+      height: 1.6rem;
+      border-bottom: 1px solid #9CEFE0; }
+      #box #list-box .list .iconbox {
+        width: 20%;
+        height: 100%;
+        float: left; }
+        #box #list-box .list .iconbox .icon {
+          width: 0.9rem;
+          height: 0.9rem;
+          background: url(img/1.png);
+          margin: 0.55rem auto;
+          background-size: cover; }
+      #box #list-box .list .right {
+        width: 80%;
+        height: 100%;
+        float: left;
+        position: relative; }
+        #box #list-box .list .right h6 {
+          font-size: 14px;
+          color: #000;
+          line-height: 25px; }
+        #box #list-box .list .right p {
+          font-size: 8px;
+          color: #666666;
+          line-height: 15px; }
+        #box #list-box .list .right a {
+          display: block;
+          font-size: 10px;
+          color: #A6C1FF;
+          margin-left: 10px;
+          float: left;
+          position: absolute;
+          left: 5px;
+          bottom: 0.5px; }
+        #box #list-box .list .right a:nth-of-type(2) {
+          color: #9B9B9B;
+          font-size: 8px;
+          left: 20px; }
+        #box #list-box .list .right a:nth-of-type(3) {
+          color: #F65AE1;
+          font-size: 14px;
+          left: 200px;
+          bottom: -1px; }
+        #box #list-box .list .right a:nth-of-type(4) {
+          color: #9B9B9B;
+          font-size: 8px;
+          left: 220px; }
+        #box #list-box .list .right a:nth-of-type(5) {
+          width: 0.8rem;
+          height: 0.3rem;
+          border-radius: 5px;
+          background: #2542F3;
+          float: right;
+          margin-right: 60px;
+          position: relative; }
+          #box #list-box .list .right a:nth-of-type(5) .cir {
+            width: 3px;
+            height: 3px;
+            border-radius: 50%;
+            background: #fff;
+            position: absolute;
+            left: 3px;
+            top: 6px; }
+          #box #list-box .list .right a:nth-of-type(5) .cir:nth-of-type(2) {
+            position: absolute;
+            left: 33px;
+            top: 6px; }
+          #box #list-box .list .right a:nth-of-type(5) .zi {
+            font-size: 6px;
+            color: #fff;
+            text-align: center; }
+        #box #list-box .list .right .rightbox {
+          width: 80%;
+          height: 0.8rem;
+          border-radius: 10px;
+          background: #9AE1FF;
+          margin-top: 2px;
+          border: 1px solid #ededed;
+          position: relative; }
+          #box #list-box .list .right .rightbox .circle {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #fff;
+            position: absolute;
+            left: 8px;
+            top: 6px; }
+          #box #list-box .list .right .rightbox .circle:nth-child(2) {
+            position: absolute;
+            left: 8px;
+            top: 29px; }
+          #box #list-box .list .right .rightbox .circle:nth-child(3) {
+            position: absolute;
+            top: 29px;
+            left: 225px; }
+          #box #list-box .list .right .rightbox .circle:nth-child(4) {
+            position: absolute;
+            top: 6px;
+            left: 225px; }
+          #box #list-box .list .right .rightbox span {
+            font-size: 16px;
+            color: #E23D5F;
+            position: absolute;
+            left: 18px;
+            top: 5px; }
+          #box #list-box .list .right .rightbox p {
+            color: #E23D5F;
+            font-size: 12px;
+            margin-left: 35px;
+            margin-top: 5px; }
+    #box #list-box .list:nth-of-type(2) .right {
+      width: 85%;
+      background: #29DCBC;
+      position: relative; }
+      #box #list-box .list:nth-of-type(2) .right h6 {
+        color: #fff;
+        margin-left: 27px; }
+      #box #list-box .list:nth-of-type(2) .right p {
+        color: #E8F2F0;
+        margin-left: 27px; }
+      #box #list-box .list:nth-of-type(2) .right a {
+        color: #fff; }
+      #box #list-box .list:nth-of-type(2) .right .circle {
+        position: absolute;
+        right: -2.5px;
+        top: 0;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #29DCBC; }
+      #box #list-box .list:nth-of-type(2) .right .circle:nth-of-type(2) {
+        top: 10px; }
+      #box #list-box .list:nth-of-type(2) .right .circle:nth-of-type(3) {
+        top: 20px; }
+      #box #list-box .list:nth-of-type(2) .right .circle:nth-of-type(4) {
+        top: 30px; }
+      #box #list-box .list:nth-of-type(2) .right .circle:nth-of-type(5) {
+        top: 40px; }
+    #box #list-box .list:nth-of-type(2) .iconbox2 {
+      width: 15%;
+      height: 100%;
+      float: left; }
+      #box #list-box .list:nth-of-type(2) .iconbox2 .icon1 {
+        width: 0.5rem;
+        height: 0.5rem;
+        border: 1px solid #6DE7D1;
+        border-radius: 50%;
+        font-size: 10px;
+        text-align: center;
+        line-height: 0.5rem;
+        color: #6DE7D1;
+        margin: 0.67rem auto; }
+    #box #list-box .list:nth-of-type(3) {
+      border-bottom: 1px dashed #9F9F9F; }
+  #box .dibu {
+    width: 100%;
+    height: 1.4rem;
+    background: #151C2B;
+    float: left;
+    margin-top: 0.7rem; }
+    #box .dibu div {
+      width: 30%;
+      height: 0.8rem;
+      background: #F4F4F4;
+      margin-left: 35%;
+      margin-top: 0.35rem;
+      font-size: 0.4rem;
+      text-align: center;
+      line-height: 0.8rem;
+      border-radius: 30px; }

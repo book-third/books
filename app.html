@@ -2,19 +2,55 @@
 <html ng-app='reader'>
 	<head>
 		<meta charset="utf-8">
-		<!--<meta name='viewport' content='width=device-width'>-->
+		<meta name='viewport' content='width=device-width'>
 		<title>libary</title>
 		<script src='js/angular.js'></script>
 		<script src='js/jquery.js'></script>
 		<script src='js/angular-route.min.js'></script>
 		<link rel="stylesheet" href="app.css" />
+		<link rel="stylesheet" href="base.css" />
+		<link rel="stylesheet" href="pages/login/denglu/denglu.css" />
+		<link rel="stylesheet" href="pages/login/xgmm/xgmm.css" />
+		<link rel="stylesheet" href="pages/login/zhmm/zhmm.css" />
+		<link rel="stylesheet" href="pages/login/zuche/zuche.css" />
+		<link rel="stylesheet" href="pages/reading/read/read.css" />
+		<link rel="stylesheet" href="pages/reading/mulu/mulu.css" />
+		<link rel="stylesheet" href="pages/reading/shuqian/shuqian.css" />
+		<link rel="stylesheet" href="pages/reading/biji/biji.css" />
+		<link rel="stylesheet" href="pages/reading/readDetail/readDetail.css" />
+		<link rel="stylesheet" href="pages/reading/mynote/mynote.css" />
 	</head>
+	<style>
+		 @font-face {font-family: "iconfont";
+      src: url('iconfont/iconfont.eot'); /* IE9*/
+      src: url('iconfont/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('iconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+      url('iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      url('iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+    .iconfont {
+      font-family:"iconfont" !important;
+      font-size:16px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+    }
+	</style>
 	<body>
 		<ng-view></ng-view>
 	</body>
 	<script src='app.js'></script>
 	<script src='config.js'></script>
-	<script src='component/lunbo/lunbo.js'></script>
-	<script src='pages/main/index/index.js'></script>
-	<script src='pages/main/book/book.js'></script>
+	<script src='pages/login/denglu/denglu.js'></script>
+	<script src='pages/login/xgmm/xgmm.js'></script>
+	<script src='pages/login/zhmm/zhmm.js'></script>
+	<script src='pages/login/zuche/zuche.js'></script>
+	<script src='pages/reading/read/read.js'></script>
+	<script src='pages/reading/mulu/mulu.js'></script>
+	<script src='pages/reading/shuqian/shuqian.js'></script>
+	<script src='pages/reading/biji/biji.js'></script>
+	<script src='pages/reading/readDetail/readDetail.js'></script>
+	<script src='pages/reading/mynote/mynote.js'></script>
 </html>

@@ -1,18 +1,34 @@
-app.config([
-	'$routeProvider',
-	function($routeProvider){
+app.config(['$routeProvider',function($routeProvider){
 		$routeProvider.when('/',{
-			templateUrl:'pages/main/index/index.html',
-			controller:'indexCtrl'
-		}).when('/book',{
-			templateUrl:'pages/main/book/book.html',
-			controller:'bookCtrl'
+			templateUrl:'pages/login/denglu/denglu.html',
+			controller:'dengluCtrl'
+		}).when('/xgmm',{
+			templateUrl:'pages/login/xgmm/xgmm.html',
+			controller:'xgmmCtrl'
+		}).when('/zhmm',{
+			templateUrl:'pages/login/zhmm/zhmm.html',
+			controller:'zhmmCtrl'
+		}).when('/zuche',{
+			templateUrl:'pages/login/zuche/zuche.html',
+			controller:'zucheCtrl'
+		}).when('/read',{
+			templateUrl:'pages/reading/read/read.html',
+			controller:'readCtrl'
+		}).when('/mulu',{
+			templateUrl:'pages/reading/mulu/mulu.html',
+			controller:'muluCtrl'
+		}).when('/shuqian',{
+			templateUrl:'pages/reading/shuqian/shuqian.html',
+			controller:'shuqianCtrl'
+		}).when('/biji',{
+			templateUrl:'pages/reading/biji/biji.html',
+			controller:'bijiCtrl'
+		}).when('/readDetail',{
+			templateUrl:'pages/reading/readDetail/readDetail.html',
+			controller:'readDetailCtrl'
+		}).when('/mynote',{
+			templateUrl:'pages/reading/mynote/mynote.html',
+			controller:'mynoteCtrl'
 		})
-	}
-	
-	
-	
-	
-	
-	
+	}	
 ])

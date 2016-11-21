@@ -1,0 +1,180 @@
+.box{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+#mulu-header{
+        width: 100%;
+        height: 1.3rem;
+        background: #29A6DC;
+        div:nth-of-type(1){
+            width: 0.5rem;
+            height: 0.5rem;
+            background: #FAFAFA;
+            color: #41B0DF;
+            font-size: 0.3rem;
+            text-align: center;
+            line-height: 0.5rem;
+            margin-left: 0.4rem;
+            margin-top: 0.5rem;
+            border-radius: 50%;
+            float: left;
+        }
+        ul{
+            width: 5rem;
+            height: 1rem;
+            background: #2A3441;
+            border-radius: 50px;
+            float: left;
+            margin-left: 0.3rem;
+            margin-top: 0.2rem;
+            font-size: 0.3rem;
+            color: #FFFFFF;
+            font-size: 0.5rem;
+            .headertop{
+                width: 33.33%;
+                height: 0.7rem;
+                border-right:1px solid #fff;
+                margin-top: 0.15rem;
+                position: relative;
+                float:left;
+                .yuan{
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background: #fff;
+                    position: absolute;
+                    right:-1.5px;
+                    top:7px;
+                }
+                .yuan:nth-of-type(2){
+                    top: 0.5px;
+                }
+                .bt-mulu{
+                    width: 80%;
+                    height: 0.6rem;
+                    border-radius: 50px;
+                    text-align: center;
+                    margin-left: 0.15rem;
+                    float: left;
+                    p{
+                        font-size:14px;
+                        line-height: 14px;
+                        margin-top: 4px;
+                    }
+                    span{
+                        display: block;
+                        font-size:10px;
+                        text-align: center;
+                        line-height: 10px;
+                    }
+                }
+            }
+            .headertop:nth-of-type(2){
+                .yuan{
+                    right:-2px;
+                }
+            }
+            .headertop:nth-of-type(3){
+                width: 32%;
+                border-right:0;
+            }
+            .bt-sq{
+                width: 30%;
+                height: 0.7rem;
+                float: left;
+                text-align: center;
+                line-height: 0.7rem;
+                margin-top: 0.25rem;
+                margin-left: 0.25rem;
+                border-left: 1px solid #EFEFEF;
+            }
+            .bt-bj{
+                width: 30%;
+                height: 0.7rem;
+                float: left;
+                line-height: 0.7rem;
+                text-align: center;
+                margin-top: 0.25rem;
+                margin-left: 0.25rem;
+                border-left: 1px solid #EFEFEF;
+            }
+        }
+    }
+    .active{
+        background: #29A6DC;
+        border: 2px solid #FFFFFF;
+        border: 2px solid #FFFFFF;
+    }
+.wzlb{
+    width: 100%;
+    height: auto;
+    float: left;
+    .wzlb-l1{
+        width: 100%;
+        height: 1.2rem;
+        border-bottom:1px dashed #999999;
+        font-size: 0.3rem;
+        ul{
+            li{
+                width:18%;
+                height:0.8rem;
+                margin-top: 0.2rem;
+                float: left;
+                color: #357FE4;
+                line-height: 0.8rem;
+                text-align: center;
+            }
+            li:nth-of-type(4){
+                color: #222222;
+                margin-left: 22%;
+            }
+        }
+    }
+    .wzlb-l2{
+        width: 100%;
+        height: 1.2rem;
+        border-bottom:1px dashed #999999;
+        font-size: 0.3rem;
+        ul{
+            li{
+                width:18%;
+                height:0.8rem;
+                margin-top: 0.2rem;
+                float: left;
+                color: #222222;
+                line-height: 0.8rem;
+                text-align: center;
+            }
+            li:nth-of-type(3){
+                width: 22%;
+                color: #222222;
+            }
+            li:nth-of-type(4){
+                color: #222222;
+                margin-left: 18%;
+            }
+        }
+    }
+    .wzlb-l4{
+        width: 100%;
+        height: 1.2rem;
+        border-bottom:1px dashed #999999;
+        font-size: 0.3rem;
+        ul{
+            li{
+                width:18%;
+                height:0.8rem;
+                margin-top: 0.2rem;
+                float: left;
+                color: #222222;
+                line-height: 0.8rem;
+                text-align: center;
+            }
+            li:nth-of-type(4){
+                color: #989898;
+                margin-left: 22%;
+            }
+        }
+    }
+}

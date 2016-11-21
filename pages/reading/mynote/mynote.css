@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rmBox {
+  width: 100%;
+  height: auto;
+  font-size: 12PX;
+  background: #FFE9B0 !important;
+}
+
+.material {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+.material .material-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 18px;
+  color: #5dbbe3;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #076cbe;
+  border-radius: 50%;
+  top: 0;
+  text-align: center;
+}
+
+.material .material-middle {
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 0;
+}
+
+.material .material-middle .myprofile {
+  font-size: 18px;
+  color: #fff;
+  width: 2rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong {
+  width: 0.6rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong .small-yuan {
+  width: 0.05rem;
+  height: 0.05rem;
+  float: left;
+  margin-top: 0.07rem;
+  border-radius: 50%;
+  background: #72dbf9;
+}
+
+.material .material-middle .zhong .mid-line {
+  margin-top: 0.09rem;
+  width: 0.5rem;
+  height: 0.01rem;
+  float: left;
+  background: #72dbf9;
+}
+
+.material .material-middle .myfile {
+  width: 100%;
+  margin-top: 0.1rem;
+  height: 0.2rem;
+  color: #72dbf9;
+  font-size: 10px;
+  text-align: center;
+  line-height: 0.2rem;
+}
+
+.rmBody {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-top: .2rem;
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
+
+.rmBody .rmtime {
+  width: 100%;
+  height: .5rem;
+}
+
+.rmBody .rmtime span {
+  margin-right: .1rem;
+}
+
+.rmBody .rmword {
+  height: 3.3rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+  padding: .1rem;
+}
+
+.rmBody .rmbianji {
+  height: 1.5rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+  margin-top: .5rem;
+}
+
+.rmBody .rmbutton {
+  height: 1rem;
+  width: 100%;
+  padding-bottom: 1.2rem;
+  padding-top: .63rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  line-height: .6rem;
+  color: #DAF4E6;
+  font-size: 14px;
+}
+
+.rmBody .rmbutton .rmbzuo {
+  float: left;
+  height: .6rem;
+  width: 1.7rem;
+  border-radius: .3rem;
+  background: #29DCBC;
+  position: relative;
+}
+
+.rmBody .rmbutton .rmbzuo .rmbone {
+  height: .1rem;
+  width: .1rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+}
+
+.rmBody .rmbutton .rmbzuo .rmbone:first-child {
+  top: 45%;
+  left: 0.3rem;
+}
+
+.rmBody .rmbutton .rmbzuo .rmbone:last-child {
+  top: 45%;
+  right: 0.3rem;
+}
+
+.rmBody .rmbutton .rmbyou {
+  float: right;
+  height: .6rem;
+  width: 1.7rem;
+  border-radius: .3rem;
+  background: #28DD8B;
+  position: relative;
+}
+
+.rmBody .rmbutton .rmbyou .rmbone {
+  height: .1rem;
+  width: .1rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+}
+
+.rmBody .rmbutton .rmbyou .rmbone:first-child {
+  top: 45%;
+  left: 0.3rem;
+}
+
+.rmBody .rmbutton .rmbyou .rmbone:last-child {
+  top: 45%;
+  right: 0.3rem;
+}
+
+.keybord {
+  width: 100%;
+  height: 4.5rem;
+  background: #0a0b0d;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+}
+
+.keybord .first-bord {
+  width: 100%;
+  height: 0.9rem;
+}
+
+.keybord .first-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .second-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .second-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .second-bord .jianzhi:nth-of-type(1) {
+  margin-left: 0.43rem;
+}
+
+.keybord .third-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .third-bord .sjtsjt {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.11rem;
+}
+
+.keybord .third-bord .sjtsjt2 {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.28rem;
+}
+
+.keybord .third-bord .jiazhuang {
+  width: 0.16rem;
+  height: 0.86rem;
+  float: left;
+}
+
+.keybord .third-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .fourth-bord div:nth-child(2) {
+  font-size: 20px;
+}
+
+.keybord .fourth-bord .sjt123 {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.11rem;
+}
+
+.keybord .fourth-bord .gogo {
+  width: 1.65rem;
+  height: 0.86rem;
+  float: left;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord .sjtsjt {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord .gogo2 {
+  width: 1.65rem;
+  height: 0.86rem;
+  float: left;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+  background: #007aff;
+}
