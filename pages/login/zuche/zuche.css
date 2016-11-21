@@ -55,7 +55,7 @@
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
-    margin-top: 0.6rem;
+    margin-top: 0.4rem;
     float: left;
     position: relative; }
     .loogin .loogin-zh div {
@@ -67,7 +67,7 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
+      top: 0.8rem; }
     .loogin .loogin-zh input {
       width: 100%;
       height: 0.8rem;
@@ -92,7 +92,7 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
+      top: 0.8rem; }
     .loogin .loogin-mm input {
       width: 100%;
       height: 0.8rem;
@@ -117,7 +117,7 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
+      top: 0.8rem; }
     .loogin .loogin-mm1 input {
       width: 100%;
       height: 0.8rem;
@@ -142,7 +142,7 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
+      top: 0.8rem; }
     .loogin .loogin-mm2 input {
       width: 100%;
       height: 0.8rem;
@@ -167,7 +167,7 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
+      top: 0.8rem; }
     .loogin .loogin-mm3 input {
       width: 100%;
       height: 0.8rem;
@@ -181,7 +181,7 @@
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
-    margin-top: 0.3rem;
+    margin-top: 0.8rem;
     position: relative; }
     .loogin .loogin-mm4 span {
       width: 50%;
@@ -220,7 +220,7 @@
       position: absolute;
       top: 0;
       left: 0.5rem; }
-      .loogin .loogin-zhzh .zhmm div:nth-of-type(1) {
+      .loogin .loogin-zhzh .zhmm div {
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
@@ -229,7 +229,7 @@
         line-height: 0.4rem;
         background: #3ABFFD;
         float: left; }
-      .loogin .loogin-zhzh .zhmm div:nth-of-type(2) {
+      .loogin .loogin-zhzh .zhmm a {
         width: 2rem;
         height: 0.4rem;
         float: left;
@@ -243,7 +243,7 @@
       position: absolute;
       top: 0;
       right: 0.2rem; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(1) {
+      .loogin .loogin-zhzh .wyzc div {
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
@@ -252,7 +252,7 @@
         line-height: 0.4rem;
         background: #3ABFFD;
         float: left; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(2) {
+      .loogin .loogin-zhzh .wyzc a {
         width: 2rem;
         height: 0.4rem;
         float: left;
@@ -277,7 +277,7 @@
       top: 0.3rem;
       left: 3%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(2) {
+    .loogin .loogin-zhdl a {
       width: 1.1rem;
       height: 0.3rem;
       color: #FFFFFF;
@@ -286,7 +286,7 @@
       top: 0.2rem;
       left: 40%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(3) {
+    .loogin .loogin-zhdl div:nth-of-type(2) {
       width: 0.1rem;
       height: 0.1rem;
       background: #F2F2F2;

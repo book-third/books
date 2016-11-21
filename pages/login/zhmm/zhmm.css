@@ -1,13 +1,13 @@
-.db {
+.dbz {
   width: 100%;
   height: auto; }
 
-.header {
+.headerz {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   float: left; }
-  .header div:nth-of-type(1) {
+  .headerz div:nth-of-type(1) {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
@@ -19,7 +19,7 @@
     margin-left: 0.25rem;
     margin-top: 0.25rem;
     float: left; }
-  .header div:nth-of-type(2) {
+  .headerz div:nth-of-type(2) {
     width: 1.8rem;
     height: 0.6rem;
     color: #fff;
@@ -30,12 +30,12 @@
     margin-top: 0.2rem;
     float: left; }
 
-.header-app {
+.header-appz {
   width: 100%;
   height: 2rem;
   background: #29a6dc;
   float: left; }
-  .header-app div {
+  .header-appz div {
     width: 2rem;
     height: 0.6rem;
     font-size: 0.5rem;
@@ -46,12 +46,12 @@
     margin-top: 0.7rem;
     margin-left: 36.5%; }
 
-.tzhi {
+.tzhiz {
   width: 100%;
   height: 2rem;
   background: #F2F2F2;
   float: left; }
-  .tzhi #tt {
+  .tzhiz #ttz {
     width: 90%;
     height: 0.4rem;
     font-size: 0.28rem;
@@ -61,7 +61,7 @@
     margin-left: 5%;
     margin-top: 1rem;
     float: left; }
-  .tzhi #zz {
+  .tzhiz #zzz {
     width: 1.5rem;
     height: 0.4rem;
     font-size: 0.28rem;
@@ -71,19 +71,19 @@
     margin-left: 80%;
     margin-top: 2rem; }
 
-.loogin {
+.looginz {
   width: 100%;
   height: 7rem;
   background: #F2F2F2;
   float: left; }
-  .loogin .loogin-zh {
+  .looginz .loogin-zhz {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     margin-top: 0.6rem;
     float: left;
     position: relative; }
-    .loogin .loogin-zh div {
+    .looginz .loogin-zhz .zhz1 {
       width: 0.5rem;
       height: 0.5rem;
       font-size: 0.4rem;
@@ -92,8 +92,8 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
-    .loogin .loogin-zh input {
+      top: 0.8rem; }
+    .looginz .loogin-zhz input {
       width: 100%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -101,14 +101,14 @@
       color: #B0B0B0;
       background: #FFFFFF;
       padding: 0.4rem; }
-  .loogin .loogin-mm {
+  .looginz .loogin-mmz {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
     margin-top: 0.3rem;
     position: relative; }
-    .loogin .loogin-mm div {
+    .looginz .loogin-mmz .zhz2 {
       width: 0.5rem;
       height: 0.5rem;
       font-size: 0.4rem;
@@ -117,8 +117,8 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
-    .loogin .loogin-mm input {
+      top: 0.8rem; }
+    .looginz .loogin-mmz input {
       width: 100%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -126,14 +126,14 @@
       color: #B0B0B0;
       background: #FFFFFF;
       padding: 0.4rem; }
-  .loogin .loogin-mm3 {
+  .looginz .loogin-mm3z {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
     margin-top: 0.3rem;
     position: relative; }
-    .loogin .loogin-mm3 div {
+    .looginz .loogin-mm3z .zhz3 {
       width: 0.5rem;
       height: 0.5rem;
       font-size: 0.4rem;
@@ -142,8 +142,8 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
-    .loogin .loogin-mm3 input {
+      top: 0.8rem; }
+    .looginz .loogin-mm3z input {
       width: 100%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -151,14 +151,14 @@
       color: #B0B0B0;
       background: #FFFFFF;
       padding: 0.3rem; }
-  .loogin .loogin-mm4 {
+  .looginz .loogin-mm4z {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
-    margin-top: 0.3rem;
+    margin-top: 0.8rem;
     position: relative; }
-    .loogin .loogin-mm4 span {
+    .looginz .loogin-mm4z span {
       width: 50%;
       height: 0.3rem;
       font-size: 0.1rem;
@@ -166,7 +166,7 @@
       position: absolute;
       left: 0.3rem;
       top: 0.5rem; }
-    .loogin .loogin-mm4 input:nth-of-type(1) {
+    .looginz .loogin-mm4z input:nth-of-type(1) {
       width: 50%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -174,7 +174,7 @@
       color: #B0B0B0;
       background: #FFFFFF;
       float: left; }
-    .loogin .loogin-mm4 input:nth-of-type(2) {
+    .looginz .loogin-mm4z input:nth-of-type(2) {
       width: 35%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -183,19 +183,19 @@
       background: #FFFFFF;
       padding: 0.4rem;
       float: right; }
-  .loogin .loogin-zhzh {
+  .looginz .loogin-zhzhz {
     width: 100%;
     height: 0.4rem;
     margin-top: 0.4rem;
     float: left;
     position: relative; }
-    .loogin .loogin-zhzh .wyzc {
+    .looginz .loogin-zhzhz .wyzcz {
       width: 2.5rem;
       height: 0.4rem;
       position: absolute;
       top: 0;
       right: 0.2rem; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(1) {
+      .looginz .loogin-zhzhz .wyzcz .zhz4 {
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
@@ -204,7 +204,7 @@
         line-height: 0.4rem;
         background: #3ABFFD;
         float: left; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(2) {
+      .looginz .loogin-zhzhz .wyzcz a {
         width: 2rem;
         height: 0.4rem;
         float: left;
@@ -212,7 +212,7 @@
         line-height: 0.4rem;
         font-size: 0.3rem;
         color: #666666; }
-  .loogin .loogin-zhdl {
+  .looginz .loogin-zhdlz {
     width: 70%;
     height: 0.7rem;
     background: #3ABFFD;
@@ -221,7 +221,7 @@
     border-radius: 30px;
     margin-top: 0.5rem;
     position: relative; }
-    .loogin .loogin-zhdl div:nth-of-type(1) {
+    .looginz .loogin-zhdlz div:nth-of-type(1) {
       width: 0.1rem;
       height: 0.1rem;
       background: #F2F2F2;
@@ -229,7 +229,7 @@
       top: 0.3rem;
       left: 3%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(2) {
+    .looginz .loogin-zhdlz a {
       width: 1.1rem;
       height: 0.3rem;
       color: #FFFFFF;
@@ -238,7 +238,7 @@
       top: 0.2rem;
       left: 40%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(3) {
+    .looginz .loogin-zhdlz div:nth-of-type(2) {
       width: 0.1rem;
       height: 0.1rem;
       background: #F2F2F2;

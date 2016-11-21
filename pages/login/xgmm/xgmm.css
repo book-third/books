@@ -1,16 +1,16 @@
-.db {
+.dbx {
   width: 100%;
   height: auto; }
 
 .backgrounds {
   background: #29a6dc; }
 
-.header {
+.headerx {
   width: 100%;
   height: 1rem;
   background: #29a6dc;
   float: left; }
-  .header div:nth-of-type(1) {
+  .headerx div:nth-of-type(1) {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 50%;
@@ -22,7 +22,7 @@
     margin-left: 0.25rem;
     margin-top: 0.25rem;
     float: left; }
-  .header div:nth-of-type(2) {
+  .headerx div:nth-of-type(2) {
     width: 2rem;
     height: 0.6rem;
     color: #fff;
@@ -33,13 +33,13 @@
     margin-top: 0.2rem;
     float: left; }
 
-.header-app {
+.header-appx {
   width: 100%;
   height: 3.5rem;
   background: #29a6dc;
   float: left;
   margin-top: -0.1rem; }
-  .header-app div {
+  .header-appx div {
     width: 2rem;
     height: 0.6rem;
     font-size: 0.5rem;
@@ -50,12 +50,12 @@
     margin-top: 1.45rem;
     margin-left: 36.5%; }
 
-.tzhi {
+.tzhix {
   width: 100%;
   height: 2.8rem;
   background: #F2F2F2;
   float: left; }
-  .tzhi #tt {
+  .tzhix #ttx {
     width: 90%;
     height: 0.4rem;
     font-size: 0.28rem;
@@ -65,7 +65,7 @@
     margin-left: 5%;
     margin-top: 1.3rem;
     float: left; }
-  .tzhi #zz {
+  .tzhix #zzx {
     width: 1.5rem;
     height: 0.4rem;
     font-size: 0.28rem;
@@ -75,18 +75,18 @@
     margin-left: 80%;
     margin-top: 2rem; }
 
-.loogin {
+.looginx {
   width: 100%;
   height: 5rem;
   background: #F2F2F2;
   float: left; }
-  .loogin .loogin-zh {
+  .looginx .loogin-zhx {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
     position: relative; }
-    .loogin .loogin-zh div {
+    .looginx .loogin-zhx .zhx1 {
       width: 0.5rem;
       height: 0.5rem;
       font-size: 0.4rem;
@@ -95,8 +95,8 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
-    .loogin .loogin-zh input {
+      top: 0.8rem; }
+    .looginx .loogin-zhx input {
       width: 100%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -104,14 +104,14 @@
       color: #B0B0B0;
       background: #FFFFFF;
       padding: 0.4rem; }
-  .loogin .loogin-mm {
+  .looginx .loogin-mmx {
     width: 85%;
     height: 0.8rem;
     margin-left: 7.5%;
     float: left;
     margin-top: 0.4rem;
     position: relative; }
-    .loogin .loogin-mm div {
+    .looginx .loogin-mmx .zhx2 {
       width: 0.5rem;
       height: 0.5rem;
       font-size: 0.4rem;
@@ -120,8 +120,8 @@
       color: #3ABFFD;
       position: absolute;
       left: 0;
-      top: 0.2rem; }
-    .loogin .loogin-mm input {
+      top: 0.8rem; }
+    .looginx .loogin-mmx input {
       width: 100%;
       height: 0.8rem;
       border: 1px solid #3A91FD;
@@ -129,19 +129,19 @@
       color: #B0B0B0;
       background: #FFFFFF;
       padding: 0.4rem; }
-  .loogin .loogin-zhzh {
+  .looginx .loogin-zhzhx {
     width: 100%;
     height: 0.4rem;
-    margin-top: 0.4rem;
+    margin-top: 0.8rem;
     float: left;
     position: relative; }
-    .loogin .loogin-zhzh .zhmm {
+    .looginx .loogin-zhzhx .zhmmx {
       width: 2.5rem;
       height: 0.4rem;
       position: absolute;
       top: 0;
       left: 0.4rem; }
-      .loogin .loogin-zhzh .zhmm div:nth-of-type(1) {
+      .looginx .loogin-zhzhx .zhmmx .zhx3 {
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
@@ -150,7 +150,7 @@
         line-height: 0.4rem;
         background: #3ABFFD;
         float: left; }
-      .loogin .loogin-zhzh .zhmm div:nth-of-type(2) {
+      .looginx .loogin-zhzhx .zhmmx a {
         width: 2rem;
         height: 0.4rem;
         float: left;
@@ -158,13 +158,13 @@
         line-height: 0.4rem;
         font-size: 0.3rem;
         color: #666666; }
-    .loogin .loogin-zhzh .wyzc {
+    .looginx .loogin-zhzhx .wyzcx {
       width: 2.5rem;
       height: 0.4rem;
       position: absolute;
       top: 0;
       right: 0.4rem; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(1) {
+      .looginx .loogin-zhzhx .wyzcx .zhx4 {
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
@@ -173,7 +173,7 @@
         line-height: 0.4rem;
         background: #3ABFFD;
         float: left; }
-      .loogin .loogin-zhzh .wyzc div:nth-of-type(2) {
+      .looginx .loogin-zhzhx .wyzcx a {
         width: 2rem;
         height: 0.4rem;
         float: left;
@@ -181,7 +181,7 @@
         line-height: 0.4rem;
         font-size: 0.3rem;
         color: #666666; }
-  .loogin .loogin-zhdl {
+  .looginx .loogin-zhdlx {
     width: 70%;
     height: 0.7rem;
     background: #3ABFFD;
@@ -190,7 +190,7 @@
     border-radius: 30px;
     margin-top: 0.5rem;
     position: relative; }
-    .loogin .loogin-zhdl div:nth-of-type(1) {
+    .looginx .loogin-zhdlx div:nth-of-type(1) {
       width: 0.1rem;
       height: 0.1rem;
       background: #F2F2F2;
@@ -198,7 +198,7 @@
       top: 0.3rem;
       left: 3%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(2) {
+    .looginx .loogin-zhdlx a {
       width: 1.1rem;
       height: 0.3rem;
       color: #FFFFFF;
@@ -207,7 +207,7 @@
       top: 0.2rem;
       left: 43%;
       border-radius: 50%; }
-    .loogin .loogin-zhdl div:nth-of-type(3) {
+    .looginx .loogin-zhdlx div:nth-of-type(2) {
       width: 0.1rem;
       height: 0.1rem;
       background: #F2F2F2;

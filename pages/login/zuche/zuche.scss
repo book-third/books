@@ -59,7 +59,7 @@
         width: 85%;
         height: 0.8rem;
         margin-left: 7.5%;
-        margin-top: 0.6rem;
+        margin-top: 0.4rem;
         float: left;
         position: relative;
         div{
@@ -71,7 +71,7 @@
            color: #3ABFFD;
            position: absolute;
            left: 0;
-           top: 0.2rem;
+           top: 0.8rem;
         }
         input{
             width: 100%;
@@ -99,7 +99,7 @@
            color: #3ABFFD;
            position: absolute;
            left: 0;
-           top: 0.2rem;
+           top: 0.8rem;
         }
         input{
             width: 100%;
@@ -127,7 +127,7 @@
            color: #3ABFFD;
            position: absolute;
            left: 0;
-           top: 0.2rem;
+           top: 0.8rem;
         }
         input{
             width: 100%;
@@ -155,7 +155,7 @@
            color: #3ABFFD;
            position: absolute;
            left: 0;
-           top: 0.2rem;
+           top: 0.8rem;
         }
         input{
             width: 100%;
@@ -183,7 +183,7 @@
            color: #3ABFFD;
            position: absolute;
            left: 0;
-           top: 0.2rem;
+           top: 0.8rem;
         }
         input{
             width: 100%;
@@ -200,7 +200,7 @@
         height: 0.8rem;
         margin-left: 7.5%;
         float: left;
-        margin-top: 0.3rem;
+        margin-top: 0.8rem;
         position: relative;
         span{
             width: 50%;
@@ -243,7 +243,7 @@
             position: absolute;
             top: 0;
             left: 0.5rem;
-            div:nth-of-type(1){
+            div{
                 width: 0.4rem;
                 height: 0.4rem;
                 border-radius: 50%;
@@ -253,7 +253,7 @@
                 background:#3ABFFD;
                 float: left;
             }
-            div:nth-of-type(2){
+            a{
                 width:2rem;
                 height:0.4rem;
                 float: left;
@@ -269,7 +269,7 @@
             position: absolute;
             top: 0;
             right: 0.2rem;
-            div:nth-of-type(1){
+            div{
                 width: 0.4rem;
                 height: 0.4rem;
                 border-radius: 50%;
@@ -279,7 +279,7 @@
                 background:#3ABFFD;
                 float: left;
             }
-            div:nth-of-type(2){
+            a{
                 width:2rem;
                 height:0.4rem;
                 float: left;
@@ -308,7 +308,7 @@
             left: 3%;
             border-radius: 50%;
         }
-        div:nth-of-type(2){
+        a{
             width: 1.1rem;
             height: 0.3rem;
             color: #FFFFFF;
@@ -318,7 +318,7 @@
             left: 40%;
             border-radius: 50%;
         }
-        div:nth-of-type(3){
+        div:nth-of-type(2){
             width: 0.1rem;
             height: 0.1rem;
             background: #F2F2F2;
