@@ -1,0 +1,345 @@
+.bbooxx {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.material {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+.material .material-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 18px;
+  color: #5dbbe3;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #076cbe;
+  border-radius: 50%;
+  top: 0;
+  text-align: center;
+}
+
+.material .material-middle {
+  width: 6rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 0;
+}
+
+.material .material-middle .myprofile {
+  font-size: 18px;
+  color: #fff;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong {
+  width: 0.6rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong .small-yuan {
+  width: 0.05rem;
+  height: 0.05rem;
+  float: left;
+  margin-top: 0.07rem;
+  border-radius: 50%;
+  background: #72dbf9;
+}
+
+.material .material-middle .zhong .mid-line {
+  margin-top: 0.09rem;
+  width: 0.5rem;
+  height: 0.01rem;
+  float: left;
+  background: #72dbf9;
+}
+
+.material .material-middle .myfile {
+  width: 6rem;
+  margin-top: 0.1rem;
+  height: 0.2rem;
+  color: #72dbf9;
+  font-size: 10px;
+  text-align: center;
+  line-height: 0.2rem;
+}
+
+.file-select {
+  width: 5.8rem;
+  height: 1rem;
+  margin: 0 auto;
+  background: #2a3441;
+  border-radius: 30px;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.file-select .file-left {
+  width: 2.5rem;
+  height: 0.8rem;
+  background: #29a6dc;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  left: 0.1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.file-select .file-left .file-left-top {
+  width: 100%;
+  height: 0.4rem;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 0.05rem;
+  text-align: center;
+  line-height: 0.4rem;
+}
+
+.file-select .file-left .file-left-bottom {
+  width: 100%;
+  height: 0.3rem;
+  margin: 0 auto;
+  font-size: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.file-select .file-middle {
+  width: 0.2rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+
+.file-select .file-middle .file-mid-top {
+  width: 0.05rem;
+  height: 0.05rem;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.file-select .file-middle .file-mid-middle {
+  width: 0.02rem;
+  height: 0.7rem;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.file-select .file-right {
+  width: 2.5rem;
+  height: 0.8rem;
+  border-radius: 20px;
+  right: 0.1rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.file-select .file-right .file-left-top {
+  width: 100%;
+  height: 0.4rem;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 0.05rem;
+  text-align: center;
+  line-height: 0.4rem;
+}
+
+.file-select .file-right .file-left-bottom {
+  width: 100%;
+  height: 0.3rem;
+  margin: 0 auto;
+  font-size: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.tuijian {
+  width: 7rem;
+  height: 7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  display: none;
+}
+
+.tuijian .setting-list {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+}
+
+.tuijian .setting-list .set-list-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background: #3afd9a;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 0.25rem;
+}
+
+.tuijian .setting-list .set-list-mid {
+  width: 3rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.tuijian .setting-list .set-list-mid .s-list-mid-top {
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  color: #333;
+  font-size: 16px;
+}
+
+.tuijian .setting-list .set-list-mid .s-list-mid-top:nth-of-type(2) {
+  font-size: 9px;
+  height: 0.2rem;
+  margin-top: 0.05rem;
+  color: #999;
+}
+
+.tuijian .setting-list .set-list-right {
+  width: 1.8rem;
+  height: 1rem;
+  line-height: 1rem;
+  color: #29a6dc;
+  font-size: 14px;
+  position: absolute;
+  left: 5rem;
+  text-align: right;
+}
+
+.mine-info {
+  width: 7rem;
+  height: 5.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 0.2rem;
+}
+
+.mine-info .mine-info-list:nth-of-type(4) {
+  border: 0;
+}
+
+.mine-info .mine-info-list {
+  width: 100%;
+  height: 1.3rem;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+}
+
+.mine-info .mine-info-list .info-left {
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 0.15rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../../img/ren5.jpg) no-repeat;
+  background-size: 100% 100%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mine-info .mine-info-list .info-mid {
+  width: 4rem;
+  height: 0.9rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 1.2rem;
+}
+
+.mine-info .mine-info-list .info-mid .info-mid-top {
+  width: 100%;
+  height: 0.2rem;
+  font-size: 14px;
+  color: #666;
+  line-height: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.mine-info .mine-info-list .info-mid .info-mid-mid {
+  width: 100%;
+  height: 0.2rem;
+  font-size: 10px;
+  color: #666;
+  margin-top: 0.11rem;
+  line-height: 0.2rem;
+}
+
+.mine-info .mine-info-list .info-mid .info-mid-bottom {
+  width: 130%;
+  height: 0.2rem;
+  font-size: 10px;
+  color: #666;
+  margin-top: 0.11rem;
+  line-height: 0.2rem;
+}
+
+.mine-info .mine-info-list .info-right {
+  width: 2.1rem;
+  height: 0.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.mine-info .mine-info-list .info-right .info-right-left {
+  width: 0.3rem;
+  height: 0.3rem;
+  float: right;
+  color: #ea5d6b;
+}
+
+.mine-info .mine-info-list .info-right .info-right-right {
+  width: 1.2rem;
+  height: 0.3rem;
+  float: right;
+  color: #333;
+  font-size: 8px;
+}

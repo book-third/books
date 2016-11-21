@@ -1,0 +1,681 @@
+#box{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right:0;
+    top:0;
+    .material{
+        width:100%;
+        height:1rem;
+        background:#29a6dc;
+        position:relative;
+        .material-left{
+            width:0.5rem;
+            height:0.5rem;
+            line-height: 0.01rem;
+            position:absolute;
+            left:20px;
+            bottom:0;
+            margin:auto;
+            background:#fff;
+            border:2px solid #076cbe;
+            border-radius:50%;
+            top:0;
+            text-align: center;
+            a{
+              color:#5dbbe3;
+              font-size: 16px;
+              text-align: center; 
+              margin-left: 1px;
+            }
+        }
+        .material-middle{
+            width:4rem;
+            height:1rem;
+            line-height:1rem;
+            margin:auto;
+            position:absolute;
+            bottom:0;
+            right:0;
+            left:0;
+            top:0;
+            text-align: center;
+            .myprofile{
+                font-size:18px;
+                color:#fff;
+                height:0.3rem;
+                line-height:0.3rem;
+                text-align: center; 
+                margin-top:0.1rem;
+            }
+            .zhong{
+                width:0.6rem;
+                height:0.1rem;
+                margin:0 auto;
+                margin-top:0.1rem;
+                .small-yuan{
+                    width:0.05rem;
+                    height:0.05rem;
+                    float:left;
+                    margin-top:0.07rem;
+                    border-radius:50%;
+                    background:#72dbf9;
+                }
+                .mid-line{
+                    margin-top:0.09rem;
+                    width:0.5rem;
+                    height:0.02rem;
+                    float:left;
+                    background:#72dbf9;
+                }
+            }
+            .myfile{
+                width:100%;
+                margin-top:0.1rem;
+                height:0.2rem;
+                color:#72dbf9;
+                font-size:10px;
+                text-align: center;
+                line-height:0.2rem;
+            }
+        }
+        .material-right{
+            width:0.5rem;
+            height:0.5rem;
+            line-height: 0.5rem;
+            font-size:18px;
+            position:absolute;
+            right:20px;
+            bottom:0;
+            margin:auto;
+            background:#fff;
+            border:2px solid #076cbe;
+            border-radius:50%;
+            top:0;
+            text-align: center; 
+            a{
+                text-align: center;
+                line-height:0.5rem;
+                color:#5dbbe3;
+                font-size: 15px;  
+            }
+        }
+    }
+    .center{
+        width: 100%;
+        height: auto;
+        .gongneng{
+            width: 90%;
+            height: 4rem;
+            box-shadow:0 0 10px rgba(0,0,0,.5);
+            margin: 20px auto;
+            box-sizing: border-box;
+            li{
+                 width:100%;
+                height: 25%;
+                border-bottom: 1px dashed #A5A5A5;
+                position: relative;
+                b{
+                    display: block;
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    border-radius: 50%;
+                    background: #3A63FD;
+                    float:left;
+                    font-size: 14px;
+                    color:#fff;
+                    text-align: center;
+                    position:absolute;
+                    left: 0.3rem;
+                    top:0.25rem;
+                    line-height: 0.5rem;
+                }
+                a{
+                    display: block;
+//                  width: 50%;
+                    height: 100%;
+                    position:absolute;
+                    left: 0.8rem;
+                    top:0rem;
+                    margin-left: 10px;
+                     h6{
+                       font-size: 14px;
+                       color:#585858;
+                       font-style: normal;
+                       line-height: 15px;
+                       line-height: 25px;
+                   }
+                   .eng{
+                       font-size: 10px;
+                       color:#7C7C7C;
+                       float: left;
+                   }
+                }
+                p{
+                   float: right; 
+                   font-size: 16px;
+                   color:#6F6F6F;
+                   line-height: 1rem;
+                   margin-right: 5px;
+                }
+                .you{
+                   float: right;
+                   font-size: 16px;
+                   margin-right: 10px;
+                   line-height: 1rem;
+                   color:#3BADDF;
+               }
+            }
+            li:nth-of-type(2){
+                b{
+                    background: #3ABFFD;
+                }
+            }
+            li:nth-of-type(3){
+                b{
+                    background: #2DE7CB;
+                }
+               .you{
+                   display: block;
+                    width: 0.8rem;
+                    height: 0.3rem;
+                    border-radius: 50px;
+                    border:2px solid #cdcdcd;
+                    line-height: 1rem;
+                    margin-top: 0.35rem;
+                    background:#3A91FD;
+//                  
+                    .cir{
+                        width: 0.25rem;
+                        height: 0.25rem;
+                        border-radius: 50%;
+                        background: #fff;
+                        float: right;
+                        margin-top: 0.025rem;
+                        position: relative;
+                        .scir{
+                            width: 0.05rem;
+                            height: 0.05rem;
+                            border-radius: 50%;
+                            background: #2DE7CB;
+                            position: absolute;
+                            left: 3px;
+                            top:3px;
+                        }
+                    }
+                }
+            }
+             li:nth-of-type(4){
+                 border-bottom: 0;
+                b{
+                    background: #FDCD3A;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    
+    
+    .out{
+        width: 80%;
+        height: 0.66rem;
+        border-radius: 50px;
+        background: #28DD8B;
+        position: absolute;
+        bottom: 1.5rem;
+        left:10%;
+        .circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #fff;
+            float: left;
+            margin-left: 20px;
+            margin-top:10px;
+        }
+        a{
+            text-align: center;
+            font-size: 15px;
+            color:#fff;
+            display: block;
+            line-height: 0.66rem;
+            float: left;
+            margin-left: 95px;
+        }
+        .circle2{
+            float: right;
+            margin-right: 20px;
+        }
+    }
+    
+    
+    //我的头像弹窗
+    .tc-profile{
+        width:5rem;
+        height:6rem;
+        background:#Fff;
+        position:absolute;
+        left:0;
+        right:0;
+        margin:auto;
+        top:3rem;
+        z-index: 2;
+        border-radius:10px;
+        overflow: hidden;
+        box-shadow:0 0 0 1000px rgba(0,0,0,0.4);
+        display: none;
+        .small-dian{
+            width:1.5rem;
+            height:0.06rem;
+            float:left;
+            .xiao-one{
+                width:0.1rem;
+                height:0.06rem;
+                background:#29dcbc;
+                border-radius:0.3rem;
+                float:left;
+                margin-right:0.1rem;
+            }
+        }
+        .sex-select{
+            width:100;
+            height:1rem;
+            margin-top:0.6rem;
+            .sex{
+                width:0.8rem;
+                height:0.8rem;
+                background:#fff;
+                box-shadow:0 0 10px rgba(0,0,0,0.3);
+                border-radius:50%;
+                float:left;
+                margin-left:1.2rem;
+                color:#29acdc;
+                font-size:20px;
+                line-height:0.8rem;
+                text-align: center;
+            }
+            .sex:nth-of-type(2){
+                margin-left:0.9rem;
+                color:#fff;
+                background:#29dcbc;
+            }
+        }
+        
+        .small-dian:nth-of-type(2){
+            float:right;
+            .xiao-one{
+                float:right;
+                margin-left:0.1rem;
+                margin-right:0;
+            }
+        }
+        .tc-profile-top{
+            width:100%;
+            height:0.7rem;
+            background:#29dcbc;
+            .profile-top-left{
+                width:0.45rem;
+                height:0.45rem;
+                line-height: 0.45rem;
+                text-align: center;
+                background:#fff;
+                float:left;
+                color:#29dcbc;
+                margin-top:0.13rem;
+                margin-left:0.7rem;
+                border-radius:50%;
+            }
+            .profile-top-mid{
+                width:3rem;
+                height:0.25rem;
+                float:left;
+                margin-left:0.15rem;
+                color:#fff;
+                font-size:14px;
+                margin-top:0.06rem;
+            } 
+            .English{
+                height:0.2rem;
+                font-size:3px;
+                margin-top:0.1rem;
+                color:#fff;
+            }       
+        }
+        .tc-profile-mid{
+            width:100%;
+            height:0.8rem;
+            .setting-list{
+                width:100%;
+                height:0.8rem;
+                border-bottom:1px dashed #ccc;
+                position:relative;
+                margin-top:0.1rem;
+                .set-list-mid{
+                    width:4rem;
+                    height:0.6rem;
+                    position:absolute;
+                    left:0.4rem;
+                    top:0;
+                    bottom:0;
+                    margin:auto;
+                    .s-list-mid-top{
+                        width:100%;
+                        height: 0.3rem;
+                        line-height:0.3rem;
+                        color:#333;
+                        font-size:16px;
+                    }
+                    .s-list-mid-top:nth-of-type(2){
+                        font-size:9px;
+                        height: 0.2rem;
+                        margin-top:0.05rem;
+                        color:#999;
+                    }
+                }
+                .chose{
+                    float: right;
+                    font-size: 20px;
+                    color:#28DD8B;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .anniu-left{
+            width: 1.5rem;
+            height: 0.5rem;
+            border-radius: 25px;
+            border:2px solid #28DD8B;
+            position: absolute;
+            left: 20px;
+            bottom: 0.6rem;
+            .cir1{
+               width: 5px;
+               height: 5px;
+               border-radius: 50%;
+               background: #28DD8B;
+               margin-left:8px; 
+               margin-top:10px;
+               float:left;
+            }
+            .TIT{
+                width: 30px;
+                height: 100%;
+                line-height: 0.5rem;
+                color:#28DD8B;
+                font-size: 12px;
+                float: left;
+                margin-left: 3px;
+            }
+            .cir1{
+               float:left; 
+               margin-right:8px; 
+            }
+        }
+        .anniu-right{
+           width: 1.5rem;
+            height: 0.5rem;
+            border-radius: 25px;
+            border:2px solid #28DD8B;
+            background: #28DD8B;
+            position: absolute;
+            right: 20px;
+            bottom: 0.6rem; 
+            .cir1{
+               width: 5px;
+               height: 5px;
+               border-radius: 50%;
+               background: #F4FDF8;
+               margin-left:8px; 
+               margin-top:10px;
+               float:left;
+            }
+            .TIT{
+                width: 30px;
+                height: 100%;
+                line-height: 0.5rem;
+                color:#F4FDF8;
+                font-size: 12px;
+                float: left;
+                margin-left: 3px;
+            }
+            .cir1{
+               float:left; 
+               margin-right:8px; 
+            }
+        }
+    }
+    
+    
+    
+    //缓存弹窗
+    .tc-profile2{
+        width:5rem;
+        height:6rem;
+        background:#Fff;
+        position:absolute;
+        left:0;
+        right:0;
+        margin:auto;
+        top:3rem;
+        z-index: 2;
+        border-radius:10px;
+        overflow: hidden;
+        box-shadow:0 0 0 1000px rgba(0,0,0,0.4);
+        display: none;
+        .small-dian{
+            width:1.5rem;
+            height:0.06rem;
+            float:left;
+            .xiao-one{
+                width:0.1rem;
+                height:0.06rem;
+                background:#29dcbc;
+                border-radius:0.3rem;
+                float:left;
+                margin-right:0.1rem;
+            }
+        }
+        .sex-select{
+            width:100;
+            height:1rem;
+            margin-top:0.6rem;
+            .sex{
+                width:0.8rem;
+                height:0.8rem;
+                background:#fff;
+                box-shadow:0 0 10px rgba(0,0,0,0.3);
+                border-radius:50%;
+                float:left;
+                margin-left:1.2rem;
+                color:#29acdc;
+                font-size:20px;
+                line-height:0.8rem;
+                text-align: center;
+            }
+            .sex:nth-of-type(2){
+                margin-left:0.9rem;
+                color:#fff;
+                background:#29dcbc;
+            }
+        }
+        
+        .small-dian:nth-of-type(2){
+            float:right;
+            .xiao-one{
+                float:right;
+                margin-left:0.1rem;
+                margin-right:0;
+            }
+        }
+        .tc-profile-top{
+            width:100%;
+            height:0.7rem;
+            background:#29dcbc;
+            .profile-top-left{
+                width:0.45rem;
+                height:0.45rem;
+                line-height: 0.45rem;
+                text-align: center;
+                background:#fff;
+                float:left;
+                color:#29dcbc;
+                margin-top:0.13rem;
+                margin-left:0.4rem;
+                border-radius:50%;
+            }
+            .all{
+                color:#fff;
+                font-size: 12px;
+                position: absolute;
+                right:35px;
+                top:7px;
+            }
+            .profile-top-right{
+                width:0.45rem;
+                height:0.45rem;
+                line-height: 0.45rem;
+                text-align: center;
+                color:#fff;
+                font-size: 20px;
+                float:right;
+                margin-top:0.13rem;
+                float: right;
+                font-size: 20px;
+                border-radius:50%;
+                position: absolute;
+                right:10px;
+                top:0px;
+                a{
+                    display: block;
+                    width: 13px;
+                    height: 13px;
+                    border-radius: 50%;
+                    background: #fff;
+                    position: absolute;
+                    right:4.5px;
+                    top:4px;
+                }
+            }
+            .profile-top-mid{
+                width:2.5rem;
+                height:0.25rem;
+                float:left;
+                margin-left:0.15rem;
+                color:#fff;
+                font-size:14px;
+                margin-top:0.06rem;
+            } 
+            .English{
+                height:0.2rem;
+                font-size:3px;
+                margin-top:0.1rem;
+                color:#fff;
+            }       
+        }
+        .tc-profile-mid{
+            width:100%;
+            height:0.8rem;
+            .setting-list{
+                width:100%;
+                height:0.8rem;
+                border-bottom:1px dashed #ccc;
+                position:relative;
+                margin-top:0.1rem;
+                .set-list-mid{
+                    width:4rem;
+                    height:0.6rem;
+                    position:absolute;
+                    left:0.4rem;
+                    top:0;
+                    bottom:0;
+                    margin:auto;
+                    .s-list-mid-top{
+                        width:100%;
+                        height: 0.3rem;
+                        line-height:0.3rem;
+                        color:#333;
+                        font-size:16px;
+                    }
+                    .s-list-mid-top:nth-of-type(2){
+                        font-size:9px;
+                        height: 0.2rem;
+                        margin-top:0.05rem;
+                        color:#999;
+                    }
+                }
+                .chose{
+                    float: right;
+                    font-size: 20px;
+                    color:#28DD8B;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .anniu-left{
+            width: 1.5rem;
+            height: 0.5rem;
+            border-radius: 25px;
+            border:2px solid #28DD8B;
+            position: absolute;
+            left: 20px;
+            bottom: 0.6rem;
+            .cir1{
+               width: 5px;
+               height: 5px;
+               border-radius: 50%;
+               background: #28DD8B;
+               margin-left:8px; 
+               margin-top:10px;
+               float:left;
+            }
+            .TIT{
+                width: 30px;
+                height: 100%;
+                line-height: 0.5rem;
+                color:#28DD8B;
+                font-size: 12px;
+                float: left;
+                margin-left: 3px;
+            }
+            .cir1{
+               float:left; 
+               margin-right:8px; 
+            }
+        }
+        .anniu-right{
+           width: 1.5rem;
+            height: 0.5rem;
+            border-radius: 25px;
+            border:2px solid #28DD8B;
+            background: #28DD8B;
+            position: absolute;
+            right: 20px;
+            bottom: 0.6rem; 
+            .cir1{
+               width: 5px;
+               height: 5px;
+               border-radius: 50%;
+               background: #F4FDF8;
+               margin-left:8px; 
+               margin-top:10px;
+               float:left;
+            }
+            .TIT{
+                width: 30px;
+                height: 100%;
+                line-height: 0.5rem;
+                color:#F4FDF8;
+                font-size: 12px;
+                float: left;
+                margin-left: 3px;
+            }
+            .cir1{
+               float:left; 
+               margin-right:8px; 
+            }
+        }
+    }
+}

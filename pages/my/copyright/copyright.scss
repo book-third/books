@@ -1,0 +1,133 @@
+.bigg{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.material{
+    width:100%;
+    height:1rem;
+    background:#29a6dc;
+    position:relative;
+    .material-left{
+        width:0.5rem;
+        height:0.5rem;
+        line-height: 0.5rem;
+        font-size:18px;
+        color:#5dbbe3;
+        position:absolute;
+        left:10px;
+        bottom:0;
+        margin:auto;
+        background:#fff;
+        border:1px solid #076cbe;
+        border-radius:50%;
+        top:0;
+        text-align: center;
+    }
+    .material-middle{
+        width:6rem;
+        height:1rem;
+        line-height:1rem;
+        text-align: center;
+        margin:auto;
+        position:absolute;
+        bottom:0;
+        right:0;
+        left:0;
+        margin:auto;
+        top:0;
+        .myprofile{
+            font-size:18px;
+            color:#fff;
+            height:0.3rem;
+            line-height:0.3rem;
+            text-align: center; 
+            margin-top:0.1rem;
+        }
+        .zhong{
+            width:0.6rem;
+            height:0.1rem;
+            margin:0 auto;
+            margin-top:0.1rem;
+            .small-yuan{
+                width:0.05rem;
+                height:0.05rem;
+                float:left;
+                margin-top:0.07rem;
+                border-radius:50%;
+                background:#72dbf9;
+            }
+            .mid-line{
+                margin-top:0.09rem;
+                width:0.5rem;
+                height:0.01rem;
+                float:left;
+                background:#72dbf9;
+            }
+        }
+        .myfile{
+            width:6rem;
+            margin-top:0.1rem;
+            height:0.2rem;
+            color:#72dbf9;
+            font-size:10px;
+            text-align: center;
+            line-height:0.2rem;
+        }
+    }
+}
+.copy-line{
+    width:7.3rem;
+    height:0.08rem;
+    background:#cbcbcb;
+    border-radius:20px;
+    margin:0 auto;
+    margin-top:0.1rem;
+}
+.copy-content{
+    width:7rem;
+    height:7.8rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin:0 auto;
+    border-radius:5px;
+    position:absolute;
+    top:1.14rem;
+    left:0;
+    right:0;
+    margin:auto;
+    .copy-word{
+        width:100%;
+        height:0.5rem;
+        text-align: center;
+        line-height:0.5rem;
+        color:#333;
+        font-size:18px;
+        margin-top:0.5rem;
+    }
+    .copy-english{
+        width:100%;
+        height:0.2rem;
+        text-align: center;
+        line-height:0.2rem;
+        color:#666;
+        font-size:12px;
+    }
+    .iamcopy{
+        width:85%;
+        margin:0.5rem auto;
+        color:#737373;
+        font-size:14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

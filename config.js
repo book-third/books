@@ -29,6 +29,33 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when('/mynote',{
 			templateUrl:'pages/reading/mynote/mynote.html',
 			controller:'mynoteCtrl'
+		}).when('/binding',{
+			templateUrl:'pages/my/binding/binding.html',
+			controller:'bindingCtrl'
+		}).when('/myself',{
+			templateUrl:'pages/my/myself/myself.html',
+			controller:'myselfCtrl'
+		}).when('/shezhi',{
+			templateUrl:'pages/my/shezhi/shezhi.html',
+			controller:'shezhiCtrl'
+		}).when('/copyright',{
+			templateUrl:'pages/my/copyright/copyright.html',
+			controller:'copyrightCtrl'
+		}).when('/like',{
+			templateUrl:'pages/my/like/like.html',
+			controller:'likeCtrl'
+		}).when('/my',{
+			templateUrl:'pages/my/my/my.html',
+			controller:'myCtrl'
+		}).when('/myprofile',{
+			templateUrl:'pages/my/myprofile/myprofile.html',
+			controller:'myprofileCtrl'
+		}).when('/setpassword',{
+			templateUrl:'pages/my/setpassword/setpassword.html',
+			controller:'setpasswordCtrl'
+		}).when('/yijian',{
+			templateUrl:'pages/my/yijian/yijian.html',
+			controller:'yijianCtrl'
 		})
 	}	
 ])

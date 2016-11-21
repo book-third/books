@@ -1,0 +1,171 @@
+.booxx {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.material {
+  width: 100%;
+  height: 1rem;
+  background: #29a6dc;
+  position: relative;
+}
+
+.material .material-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 18px;
+  color: #5dbbe3;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #076cbe;
+  border-radius: 50%;
+  top: 0;
+  text-align: center;
+}
+
+.material .material-middle {
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 0;
+}
+
+.material .material-middle .myprofile {
+  font-size: 18px;
+  color: #fff;
+  width: 2rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong {
+  width: 0.6rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+}
+
+.material .material-middle .zhong .small-yuan {
+  width: 0.05rem;
+  height: 0.05rem;
+  float: left;
+  margin-top: 0.07rem;
+  border-radius: 50%;
+  background: #72dbf9;
+}
+
+.material .material-middle .zhong .mid-line {
+  margin-top: 0.09rem;
+  width: 0.5rem;
+  height: 0.01rem;
+  float: left;
+  background: #72dbf9;
+}
+
+.material .material-middle .myfile {
+  width: 100%;
+  margin-top: 0.1rem;
+  height: 0.2rem;
+  color: #72dbf9;
+  font-size: 10px;
+  text-align: center;
+  line-height: 0.2rem;
+}
+
+.write {
+  width: 7rem;
+  height: 3.6rem;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.write .neirongs {
+  width: 100%;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+
+.write .neirongs .neirong-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  color: #e59a62;
+  font-size: 25px;
+  margin-top: 0.25rem;
+  float: left;
+  margin-left: 0.1rem;
+}
+
+.write .neirongs .neirong-mid {
+  width: 6rem;
+  margin-top: 0.2rem;
+  height: 0.3rem;
+  color: #333;
+  float: left;
+  font-size: 16px;
+  line-height: 0.3rem;
+  margin-left: 0.1rem;
+}
+
+.write .neirongs .neirong-right {
+  width: 6rem;
+  margin-top: 0.1rem;
+  height: 0.3rem;
+  color: #999;
+  float: left;
+  font-size: 10px;
+  line-height: 0.3rem;
+  margin-left: 0.1rem;
+}
+
+.tijiao {
+  width: 5.5rem;
+  height: 0.8rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+  background: #28dd8b;
+  font-size: 14px;
+  line-height: 0.8rem;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.tijiao .x-yuan {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.tijiao .x-yuan2 {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: 0.4rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
