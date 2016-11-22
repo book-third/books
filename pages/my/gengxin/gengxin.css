@@ -200,134 +200,132 @@
           margin-top: 5px; }
     #box2 #foot .li:nth-of-type(3) a p {
       color: #fff; }
-
-#tanchuang {
-  width: 5rem;
-  height: 3rem;
-  background: #Fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 5.5rem;
-  z-index: 2;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4); }
-  #tanchuang a {
-    display: block; }
-    #tanchuang a .small-dian {
-      width: 1.5rem;
-      height: 0.06rem;
-      float: left; }
-      #tanchuang a .small-dian .xiao-one {
-        width: 0.1rem;
+  #box2 #tanchuang {
+    width: 5rem;
+    height: 3rem;
+    background: #Fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5.5rem;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4); }
+    #box2 #tanchuang a {
+      display: block; }
+      #box2 #tanchuang a .small-dian {
+        width: 1.5rem;
         height: 0.06rem;
-        background: #29dcbc;
-        border-radius: 0.3rem;
-        float: left;
-        margin-right: 0.1rem; }
-    #tanchuang a .sex-select {
-      width: 100;
-      height: 1rem;
-      margin-top: 0.3rem; }
-      #tanchuang a .sex-select .sex {
-        color: #000;
-        font-size: 20px;
-        line-height: 0.5rem;
-        text-align: center; }
-      #tanchuang a .sex-select .sex:nth-of-type(2) {
-        font-size: 12px;
-        line-height: 0.3rem; }
-      #tanchuang a .sex-select .sex:nth-of-type(3) {
-        font-size: 16px;
-        line-height: 0.5rem; }
-    #tanchuang a .small-dian:nth-of-type(2) {
-      float: right; }
-      #tanchuang a .small-dian:nth-of-type(2) .xiao-one {
-        float: right;
-        margin-left: 0.1rem;
-        margin-right: 0; }
-    #tanchuang a .tc-profile-top {
-      width: 100%;
-      height: 0.7rem;
-      background: #29dcbc; }
-      #tanchuang a .tc-profile-top .profile-top-left {
-        width: 0.45rem;
-        height: 0.45rem;
-        line-height: 0.45rem;
-        background: #fff;
-        float: left;
-        color: #29dcbc;
-        margin-top: 0.13rem;
-        margin-left: 0.7rem;
-        border-radius: 50%; }
-      #tanchuang a .tc-profile-top .profile-top-mid {
-        width: 3rem;
-        height: 0.25rem;
-        float: left;
-        margin-left: 0.15rem;
-        color: #fff;
-        font-size: 14px;
-        margin-top: 0.06rem; }
-      #tanchuang a .tc-profile-top .english {
-        height: 0.2rem;
-        font-size: 8px;
-        margin-top: 0.1rem; }
-    #tanchuang a .tc-profile-mid {
-      width: 100%;
-      height: 0.8rem; }
-      #tanchuang a .tc-profile-mid .setting-list {
-        width: 100%;
-        height: 0.8rem;
-        border-bottom: 1px dashed #ccc;
-        position: relative;
-        margin-top: 0.1rem; }
-        #tanchuang a .tc-profile-mid .setting-list .set-list-left {
-          width: 0.5rem;
-          height: 0.5rem;
+        float: left; }
+        #box2 #tanchuang a .small-dian .xiao-one {
+          width: 0.1rem;
+          height: 0.06rem;
+          background: #29dcbc;
+          border-radius: 0.3rem;
+          float: left;
+          margin-right: 0.1rem; }
+      #box2 #tanchuang a .sex-select {
+        width: 100;
+        height: 1rem;
+        margin-top: 0.3rem; }
+        #box2 #tanchuang a .sex-select .sex {
+          color: #000;
+          font-size: 20px;
           line-height: 0.5rem;
-          background: #3acdfd;
-          border-radius: 50%;
-          position: absolute;
-          left: 10px;
-          top: 0.15rem; }
-        #tanchuang a .tc-profile-mid .setting-list .leftthree {
-          background: #3afd9a; }
-        #tanchuang a .tc-profile-mid .setting-list .set-list-mid {
+          text-align: center; }
+        #box2 #tanchuang a .sex-select .sex:nth-of-type(2) {
+          font-size: 12px;
+          line-height: 0.3rem; }
+        #box2 #tanchuang a .sex-select .sex:nth-of-type(3) {
+          font-size: 16px;
+          line-height: 0.5rem; }
+      #box2 #tanchuang a .small-dian:nth-of-type(2) {
+        float: right; }
+        #box2 #tanchuang a .small-dian:nth-of-type(2) .xiao-one {
+          float: right;
+          margin-left: 0.1rem;
+          margin-right: 0; }
+      #box2 #tanchuang a .tc-profile-top {
+        width: 100%;
+        height: 0.7rem;
+        background: #29dcbc; }
+        #box2 #tanchuang a .tc-profile-top .profile-top-left {
+          width: 0.45rem;
+          height: 0.45rem;
+          line-height: 0.45rem;
+          background: #fff;
+          float: left;
+          color: #29dcbc;
+          margin-top: 0.13rem;
+          margin-left: 0.7rem;
+          border-radius: 50%; }
+        #box2 #tanchuang a .tc-profile-top .profile-top-mid {
           width: 3rem;
-          height: 0.6rem;
-          position: absolute;
-          left: 1rem;
-          top: 0;
-          bottom: 0;
-          margin: auto; }
-          #tanchuang a .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top {
-            width: 100%;
-            height: 0.3rem;
-            line-height: 0.3rem;
-            color: #333;
-            font-size: 16px; }
-          #tanchuang a .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top:nth-of-type(2) {
-            font-size: 9px;
-            height: 0.2rem;
-            margin-top: 0.05rem;
-            color: #999; }
-      #tanchuang a .tc-profile-mid .setting-list:nth-of-type(2) {
-        border: 0; }
-
-.tc-profile-bot {
-  width: 2.5rem;
-  height: 0.7rem;
-  border-radius: 20px;
-  background: #29dcbc;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 8.1rem;
-  z-index: 12;
-  margin: auto;
-  color: #fff;
-  text-align: center;
-  line-height: 0.7rem;
-  font-size: 16px; }
+          height: 0.25rem;
+          float: left;
+          margin-left: 0.15rem;
+          color: #fff;
+          font-size: 14px;
+          margin-top: 0.06rem; }
+        #box2 #tanchuang a .tc-profile-top .english {
+          height: 0.2rem;
+          font-size: 8px;
+          margin-top: 0.1rem; }
+      #box2 #tanchuang a .tc-profile-mid {
+        width: 100%;
+        height: 0.8rem; }
+        #box2 #tanchuang a .tc-profile-mid .setting-list {
+          width: 100%;
+          height: 0.8rem;
+          border-bottom: 1px dashed #ccc;
+          position: relative;
+          margin-top: 0.1rem; }
+          #box2 #tanchuang a .tc-profile-mid .setting-list .set-list-left {
+            width: 0.5rem;
+            height: 0.5rem;
+            line-height: 0.5rem;
+            background: #3acdfd;
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+            top: 0.15rem; }
+          #box2 #tanchuang a .tc-profile-mid .setting-list .leftthree {
+            background: #3afd9a; }
+          #box2 #tanchuang a .tc-profile-mid .setting-list .set-list-mid {
+            width: 3rem;
+            height: 0.6rem;
+            position: absolute;
+            left: 1rem;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+            #box2 #tanchuang a .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top {
+              width: 100%;
+              height: 0.3rem;
+              line-height: 0.3rem;
+              color: #333;
+              font-size: 16px; }
+            #box2 #tanchuang a .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top:nth-of-type(2) {
+              font-size: 9px;
+              height: 0.2rem;
+              margin-top: 0.05rem;
+              color: #999; }
+        #box2 #tanchuang a .tc-profile-mid .setting-list:nth-of-type(2) {
+          border: 0; }
+  #box2 .tc-profile-bot {
+    width: 2.5rem;
+    height: 0.7rem;
+    border-radius: 20px;
+    background: #29dcbc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8.1rem;
+    z-index: 12;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 16px; }

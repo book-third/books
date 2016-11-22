@@ -71,7 +71,6 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/bookshelf",{
 			templateUrl:"pages/bookjia/bookshelf/bookshelf.html",
 			controller:"bookshelfCtrl"
-<<<<<<< HEAD
 		}).when('/Bookmark',{//贾震宇
 			templateUrl:'pages/Review/Bookmark/Bookmark.hrml',
 			controller:'BookmarkCtrl'
@@ -90,7 +89,6 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when('/pageMain',{
 			templateUrl:'pages/Review/pageMain/pageMain.hrml',
 			controller:'pageMainCtrl'				
-=======
 		}).when("/content",{
 			templateUrl:"pages/bookjia/content/content.html",
 			controller:"contentCtrl"
@@ -100,7 +98,6 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/sort",{
 			templateUrl:"pages/bookjia/sort/sort.html",
 			controller:"sortCtrl"
->>>>>>> 23885c31bef4799f2a3329dfc0bc92e33b4def69
 		})
 		
 		
