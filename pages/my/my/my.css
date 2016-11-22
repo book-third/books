@@ -260,6 +260,7 @@
     .tc-profile .tc-profile-top .profile-top-left {
       width: 0.45rem;
       height: 0.45rem;
+      text-align: center;
       line-height: 0.45rem;
       background: #fff;
       float: left;
@@ -335,4 +336,12 @@
   color: #fff;
   text-align: center;
   line-height: 0.7rem;
-  font-size: 16px; }
+  font-size: 16px; 
+  display: none;}
+.dianjj{
+	display: block;
+}
+
+
+
+
