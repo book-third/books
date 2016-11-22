@@ -68,6 +68,15 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/bookshelf",{
 			templateUrl:"pages/bookjia/bookshelf/bookshelf.html",
 			controller:"bookshelfCtrl"
+		}).when("/content",{
+			templateUrl:"pages/bookjia/content/content.html",
+			controller:"contentCtrl"
+		}).when("/search",{
+			templateUrl:"pages/bookjia/search/search.html",
+			controller:"searchCtrl"
+		}).when("/sort",{
+			templateUrl:"pages/bookjia/sort/sort.html",
+			controller:"sortCtrl"
 		})
 		
 		
