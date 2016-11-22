@@ -25,7 +25,7 @@ div, span {
   border: 1px solid blue;
   background: #ffffff;
   border-radius: 50%;
-  position: absolute;
+ 	margin-left: .6rem;
   top: .3rem;
   text-align: center;
 }
@@ -152,14 +152,14 @@ div, span {
   margin-left: 1rem;
 }
 
-.iconfont {
+/*.iconfont {
   width: .5rem;
   height: .5rem;
   border-radius: 50%;
   box-shadow: 0 0 2px blue;
   text-align: center;
   line-height: .5rem;
-}
+}*/
 
 .fabupinglun {
   position: relative;

@@ -19,11 +19,15 @@ div, span {
       border: 1px solid blue;
       background: #ffffff;
       border-radius: 50%;
-      position: absolute;
+      margin-left:.7rem ;
+        padding-bottom: .4rem;
+      
+      /*position: absolute;*/
       top: .3rem; }
       #pageMain .header .return span {
         font-size: 16px;
-        line-height: 0.5rem;
+
+        line-height: 0.3rem;
         text-align: center; }
 
 #bookInformation {
@@ -33,11 +37,14 @@ div, span {
   left: 0;
   bottom: 0;
   right: 0;
-  top: 0;
+  top: 1rem;
   margin: auto;
-  position: relative; }
+  border-radius: 20px;
+ }
   #bookInformation li {
     overflow: hidden; }
+      #bookInformation .yuanfenjiu{
+    width:3rem;height: .4rem;}
   #bookInformation .bookimg {
     float: left;
     width: 3rem;
@@ -180,7 +187,8 @@ div, span {
     background: red;
     margin-right: .3rem;
     margin: 0 .3rem;
-    background: url(../../img/book2.jpg); }
+    background: url(img/7.jpg); 
+    background-size: 100% 100%;}
   .Content_body .tuLeft {
     width: 90%;
     height: auto; }
@@ -285,7 +293,9 @@ div, span {
     height: 2rem;
     overflow: hidden;
     margin-left: 10%;
-    border: 1px solid red; }
+       background: #FDFDFD;
+        box-shadow: 0 0 2px saddlebrown;
+    border-radius: 20px;}
     #myNotes .Notes_body * {
       float: left; }
     #myNotes .Notes_body ul {

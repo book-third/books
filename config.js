@@ -68,26 +68,24 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/bookshelf",{
 			templateUrl:"pages/bookjia/bookshelf/bookshelf.html",
 			controller:"bookshelfCtrl"
-<<<<<<< HEAD
 		}).when('/Bookmark',{//贾震宇
-			templateUrl:'pages/Review/Bookmark/Bookmark.hrml',
+			templateUrl:'pages/Review/Bookmark/Bookmark.html',
 			controller:'BookmarkCtrl'
 		}).when('/BookReview',{
-			templateUrl:'pages/Review/BookReview/BookReview.hrml',
+			templateUrl:'pages/Review/BookReview/BookReview.html',
 			controller:'BookReviewCtrl'			
 		}).when('/Five-star',{
-			templateUrl:'pages/Review/Five-star/Five-star.hrml',
+			templateUrl:'pages/Review/Five-star/Five-star.html',
 			controller:'Five-starCtrl'				
 		}).when('/Five-star-failure',{
-			templateUrl:'pages/Review/Five-star-failure/Five-star-failure.hrml',
+			templateUrl:'pages/Review/Five-star-failure/Five-star-failure.html',
 			controller:'Five-star-failureCtrl'				
 		}).when('/management',{
-			templateUrl:'pages/Review/management/management.hrml',
+			templateUrl:'pages/Review/management/management.html',
 			controller:'managementCtrl'				
 		}).when('/pageMain',{
-			templateUrl:'pages/Review/pageMain/pageMain.hrml',
+			templateUrl:'pages/Review/pageMain/pageMain.html',
 			controller:'pageMainCtrl'				
-=======
 		}).when("/content",{
 			templateUrl:"pages/bookjia/content/content.html",
 			controller:"contentCtrl"
@@ -97,7 +95,6 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/sort",{
 			templateUrl:"pages/bookjia/sort/sort.html",
 			controller:"sortCtrl"
->>>>>>> 23885c31bef4799f2a3329dfc0bc92e33b4def69
 		})
 		
 		

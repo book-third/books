@@ -1,3 +1,4 @@
+
 .page7 .header {
   width: 100%;
   height: 1rem;
@@ -9,7 +10,7 @@
     height: 0.44rem;
     border: 0.02rem solid #076CBE;
     border-radius: 50%;
-    background: #fff url("img/left.jpg") no-repeat;
+    background: #fff url("book/left.jpg") no-repeat;
     background-size: auto 0.17rem;
     background-position: 0.15rem 0.12rem;
     position: absolute;
@@ -49,31 +50,37 @@
 
 .page7 .remind {
   width: 100%;
-  height: 0.48rem;
+  /*height: 0.48rem;*/
   background: #E5E5E5;
   text-align: center;
   line-height: 0.48rem;
   font-size: 0.19rem;
   color: #ACACAC; }
-
+.pen{
+	position: relative
+}
 .page7 .note {
   width: 100%;
   margin: 0.2rem auto 0; }
   .page7 .note ul {
-    width: 100%; }
+    width: 100%; 
+    position: relative;
+    }
     .page7 .note ul li {
       width: 100%;
-      height: 2rem;
+      height: 2.2rem;
       border-bottom: 1px dotted #A7A7A7;
       box-shadow: 0 0 0 #fff;
       border-radius: 0;
+      position: relative;
+      /*position: absolute;*/
       padding-top: 0.22rem;
       padding-left: 0.31rem;
       padding-bottom: 0.3rem; }
       .page7 .note ul li .img {
         width: 0.66rem;
         height: 0.64rem;
-        background: url("img/book54.jpg");
+        background: url("book/book54.jpg");
         background-size: 100% auto;
         float: left;
         margin-top: 0.26rem; }
@@ -81,7 +88,9 @@
         width: 5.6rem;
         height: 100%;
         float: left;
-        margin-left: 0.26rem; }
+        margin-left: 0.26rem; 
+        position: relative;}
+     		
         .page7 .note ul li .text h1 {
           font-size: 0.22rem;
           color: #151C2B;
@@ -97,29 +106,32 @@
           color: #F57782;
           padding-left: 0.54rem;
           padding-top: 0.1rem;
-          padding-right: 0.24rem; }
+          padding-right: 0.24rem;
+          position: relative; }
           .page7 .note ul li .text .write .pen {
             width: 0.22rem;
             height: 0.21rem;
-            background: url("img/book69.jpg");
+            background: url("book/book69.jpg");
             background-size: cover;
             position: absolute;
             left: 0.2rem;
-            top: 0.14rem; }
+            top: 0.24rem; }
         .page7 .note ul li .text .time, .page7 .note ul li .text .like {
           width: 1.7rem;
           height: 0.52rem;
           float: left;
-          position: absolute;
+          position: absolute;  margin-left: 1rem;
           bottom: -0.45rem; }
           .page7 .note ul li .text .time .circle, .page7 .note ul li .text .like .circle {
             width: 0.17rem;
             height: 0.17rem;
-            background: #fff url("img/book43.jpg");
+            background: #fff url("book/book43.jpg");
             background-size: auto 100%;
             background-repeat: no-repeat;
-            margin-top: 0.15rem; }
-          .page7 .note ul li .text .time span, .page7 .note ul li .text .like span {
+            margin-top: 0.15rem; 
+            margin-left: 1rem;
+            }
+          .page7 .note ul li .text .time span, .page7 .note ul li .text .like span {  margin-left: 1rem;
             font-size: 0.01rem;
             position: absolute;
             left: 0.31rem;
@@ -133,28 +145,28 @@
           .page7 .note ul li .text .like .circle {
             width: 0.34rem;
             height: 0.17rem;
-            background: #fff url("img/book11.jpg");
+            background: #fff url("book/book11.jpg");
             background-size: auto 100%;
             background-repeat: no-repeat; }
     .page7 .note ul li:nth-of-type(1) .write {
-      background: url("img/book17.png");
+      background: url("book/book17.png");
       background-size: cover; }
     .page7 .note ul li:nth-of-type(2) {
-      background: url("img/book25.png");
+      background: url("book/book25.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: -1rem 0; }
       .page7 .note ul li:nth-of-type(2) .time .circle {
-        background: #fff url("img/book73.jpg");
+        background: #fff url("book/book73.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat; }
       .page7 .note ul li:nth-of-type(2) .like .circle {
         width: 0.33rem;
-        background: #fff url("img/book76.jpg");
+        background: #fff url("book/book76.jpg");
         background-size: auto 100%;
         background-repeat: no-repeat; }
     .page7 .note ul li:nth-of-type(3) .text .write .pen {
-      background: url("img/book19.png");
+      background: url("book/book19.png");
       background-size: cover; }
 
 .page7 .bottom {

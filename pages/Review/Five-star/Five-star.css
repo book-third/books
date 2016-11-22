@@ -92,7 +92,7 @@ div, span {
   width: 100%;
   height: 1px;
   background: #000;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 }
 
 .juzi {
@@ -110,6 +110,7 @@ div, span {
   background: #0a0b0d;
   margin: 0 auto;
   padding-top: 0.2rem;
+  top:8.9rem; 
 }
 
 .keybord .first-bord {
