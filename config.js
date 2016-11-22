@@ -35,6 +35,9 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when('/myself',{
 			templateUrl:'pages/my/myself/myself.html',
 			controller:'myselfCtrl'
+		}).when('/gengxin',{
+			templateUrl:'pages/my/gengxin/gengxin.html',
+			controller:'myselfCtrl'
 		}).when('/shezhi',{
 			templateUrl:'pages/my/shezhi/shezhi.html',
 			controller:'shezhiCtrl'
@@ -66,6 +69,7 @@ app.config(['$routeProvider',function($routeProvider){
 			templateUrl:"pages/bookcity/booklist/booklist.html",
 			controller:"booklistCtrl"
 		})
+		
 		
 		
 		
