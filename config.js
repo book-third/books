@@ -65,6 +65,9 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/booklist",{
 			templateUrl:"pages/bookcity/booklist/booklist.html",
 			controller:"booklistCtrl"
+		}).when("/bookshelf",{
+			templateUrl:"pages/bookjia/bookshelf/bookshelf.html",
+			controller:"bookshelfCtrl"
 		})
 		
 		
