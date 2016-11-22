@@ -1,0 +1,19 @@
+app.directive("tab",function(){
+	return{
+		restrict:"E",
+		replace:true,
+		templateUrl:"components/tab/tab.html",
+		scope:{
+			data:"="
+		},
+		link:function($scope,el){
+			$(el).on("click",".navs",function(){
+				var index=$(this).index();
+				$(el).find($(".navss")).removeClass("active");
+				$(el).find($(".navss")).eq(index).addClass("active");
+				$(".xuan").css("display","none");
+				$(".xuan").eq(index).css("display","block");
+			})
+		}
+	}
+})

@@ -56,6 +56,19 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when('/yijian',{
 			templateUrl:'pages/my/yijian/yijian.html',
 			controller:'yijianCtrl'
+		}).when("/category",{
+			templateUrl:"pages/bookcity/category/category.html",
+			controller:"categoryCtrl"
+		}).when("/bookname",{
+			templateUrl:"pages/bookcity/bookname/bookname.html",
+			controller:"booknameCtrl"
+		}).when("/booklist",{
+			templateUrl:"pages/bookcity/booklist/booklist.html",
+			controller:"booklistCtrl"
 		})
+		
+		
+		
+		
 	}	
 ])
