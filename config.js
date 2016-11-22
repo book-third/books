@@ -65,18 +65,6 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/booklist",{
 			templateUrl:"pages/bookcity/booklist/booklist.html",
 			controller:"booklistCtrl"
-		}).when("/bookpage1",{
-			templateUrl:"pages/Review/BookReview/BookReview.html",
-			controller:"BookReviewCtrl"
-		}).when("/bookpage2",{
-			templateUrl:"pages/Review/Five-star/Five-star.html",
-			controller:"Five-starCtrl"
-		}).when("/bookpage3",{
-			templateUrl:"pages/Review/Five-star-failure/Five-star-failure.html",
-			controller:"Five-star-failureCtrl"
-		}).when("/bookpage4",{
-			templateUrl:"pages/Review/pageMain/pageMain.html",
-			controller:"pageMainCtrl"
 		})
 		
 		
