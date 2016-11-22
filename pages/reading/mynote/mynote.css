@@ -196,7 +196,7 @@ a {
   right: 0.3rem;
 }
 
-.keybord {
+.rmkeybord {
   width: 100%;
   height: 4.5rem;
   background: #0a0b0d;
@@ -204,12 +204,12 @@ a {
   padding-top: 0.2rem;
 }
 
-.keybord .first-bord {
+.rmkeybord .first-bord {
   width: 100%;
   height: 0.9rem;
 }
 
-.keybord .first-bord .jianzhi {
+.rmkeybord .first-bord .jianzhi {
   width: 0.62rem;
   height: 0.86rem;
   background: #545556;
@@ -222,13 +222,13 @@ a {
   margin-left: 0.115rem;
 }
 
-.keybord .second-bord {
+.rmkeybord .second-bord {
   width: 100%;
   height: 0.9rem;
   margin-top: 0.2rem;
 }
 
-.keybord .second-bord .jianzhi {
+.rmkeybord .second-bord .jianzhi {
   width: 0.62rem;
   height: 0.86rem;
   background: #545556;
@@ -241,17 +241,17 @@ a {
   margin-left: 0.115rem;
 }
 
-.keybord .second-bord .jianzhi:nth-of-type(1) {
+.rmkeybord .second-bord .jianzhi:nth-of-type(1) {
   margin-left: 0.43rem;
 }
 
-.keybord .third-bord {
+.rmkeybord .third-bord {
   width: 100%;
   height: 0.9rem;
   margin-top: 0.2rem;
 }
 
-.keybord .third-bord .sjtsjt {
+.rmkeybord .third-bord .sjtsjt {
   width: 0.86rem;
   height: 0.86rem;
   float: left;
@@ -264,7 +264,7 @@ a {
   margin-left: 0.11rem;
 }
 
-.keybord .third-bord .sjtsjt2 {
+.rmkeybord .third-bord .sjtsjt2 {
   width: 0.86rem;
   height: 0.86rem;
   float: left;
@@ -277,13 +277,13 @@ a {
   margin-left: 0.28rem;
 }
 
-.keybord .third-bord .jiazhuang {
+.rmkeybord .third-bord .jiazhuang {
   width: 0.16rem;
   height: 0.86rem;
   float: left;
 }
 
-.keybord .third-bord .jianzhi {
+.rmkeybord .third-bord .jianzhi {
   width: 0.62rem;
   height: 0.86rem;
   background: #545556;
@@ -296,17 +296,17 @@ a {
   margin-left: 0.115rem;
 }
 
-.keybord .fourth-bord {
+.rmkeybord .fourth-bord {
   width: 100%;
   height: 0.9rem;
   margin-top: 0.2rem;
 }
 
-.keybord .fourth-bord div:nth-child(2) {
+.rmkeybord .fourth-bord div:nth-child(2) {
   font-size: 20px;
 }
 
-.keybord .fourth-bord .sjt123 {
+.rmkeybord .fourth-bord .sjt123 {
   width: 0.86rem;
   height: 0.86rem;
   float: left;
@@ -319,7 +319,7 @@ a {
   margin-left: 0.11rem;
 }
 
-.keybord .fourth-bord .gogo {
+.rmkeybord .fourth-bord .gogo {
   width: 1.65rem;
   height: 0.86rem;
   float: left;
@@ -333,7 +333,7 @@ a {
   margin-left: 0.115rem;
 }
 
-.keybord .fourth-bord .sjtsjt {
+.rmkeybord .fourth-bord .sjtsjt {
   width: 0.86rem;
   height: 0.86rem;
   float: left;
@@ -347,7 +347,7 @@ a {
   margin-left: 0.115rem;
 }
 
-.keybord .fourth-bord .gogo2 {
+.rmkeybord .fourth-bord .gogo2 {
   width: 1.65rem;
   height: 0.86rem;
   float: left;
