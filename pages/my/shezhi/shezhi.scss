@@ -1,4 +1,4 @@
-#box{
+#box1{
     width: 100%;
     position: absolute;
     left:0;
@@ -27,7 +27,9 @@
               color:#5dbbe3;
               font-size: 16px;
               text-align: center; 
-              margin-left: 1px;
+//            margin-left: 1px;
+              display: block;
+              line-height: 0.5rem;
             }
         }
         .material-middle{
@@ -41,7 +43,7 @@
             left:0;
             top:0;
             text-align: center;
-            .myprofile{
+            .myprofile1{
                 font-size:18px;
                 color:#fff;
                 height:0.3rem;
@@ -99,6 +101,7 @@
                 line-height:0.5rem;
                 color:#5dbbe3;
                 font-size: 15px;  
+                display: block;
             }
         }
     }
@@ -157,14 +160,18 @@
                    font-size: 16px;
                    color:#6F6F6F;
                    line-height: 1rem;
-                   margin-right: 5px;
+                   margin-right: 33px;
+                   
                 }
                 .you{
-                   float: right;
                    font-size: 16px;
                    margin-right: 10px;
                    line-height: 1rem;
                    color:#3BADDF;
+                   position: absolute;
+                   left:310px;
+                   margin-right: 5px;
+                   margin-left: 0;
                }
             }
             li:nth-of-type(2){
@@ -185,7 +192,8 @@
                     line-height: 1rem;
                     margin-top: 0.35rem;
                     background:#3A91FD;
-//                  
+                     position: absolute;
+                   left:280px;
                     .cir{
                         width: 0.25rem;
                         height: 0.25rem;
