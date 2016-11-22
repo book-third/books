@@ -1,0 +1,482 @@
+div, span {
+  font-size: 12px;
+}
+
+.bodys {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+#FiveStar {
+  filter: blur(2px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#FiveStar .header {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  left: 0;
+  top: 0;
+  background: #29A6DC;
+}
+
+#FiveStar .header .return {
+  float: left;
+  left: .7rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 1px solid blue;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: .3rem;
+}
+
+#FiveStar .header .return span {
+  font-size: 16px;
+  margin-left: .1rem;
+  line-height: 0.6rem;
+  text-align: center;
+  float: left;
+}
+
+#FiveStar .BooksTop {
+  position: absolute;
+  float: left;
+  left: 40%;
+  top: .1rem;
+}
+
+#FiveStar .BooksTop div {
+  width: auto;
+  height: .3rem;
+}
+
+#FiveStar .BooksTop span {
+  display: inherit;
+}
+
+#FiveStar .BooksTop span:nth-child(1) {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#FiveStar .BooksTop span:nth-child(2) {
+  margin-left: -.3rem;
+}
+
+.Fivexing {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Fivexing li {
+  font-size: 1rem;
+  color: yellow;
+  float: left;
+  margin-left: .2rem;
+  margin-top: .5rem;
+}
+
+.hengxian {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin-top: 2.5rem;
+}
+
+.juzi {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: .3rem;
+}
+
+.keybord {
+  position: relative;
+  top: 2.7rem;
+  width: 100%;
+  height: 4.3rem;
+  background: #0a0b0d;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+}
+
+.keybord .first-bord {
+  width: 100%;
+  height: 0.9rem;
+}
+
+.keybord .first-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .second-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .second-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .second-bord .jianzhi:nth-of-type(1) {
+  margin-left: 0.43rem;
+}
+
+.keybord .third-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .third-bord .sjtsjt {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.11rem;
+}
+
+.keybord .third-bord .sjtsjt2 {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.28rem;
+}
+
+.keybord .third-bord .jiazhuang {
+  width: 0.16rem;
+  height: 0.86rem;
+  float: left;
+}
+
+.keybord .third-bord .jianzhi {
+  width: 0.62rem;
+  height: 0.86rem;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord {
+  width: 100%;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.keybord .fourth-bord .sjt123 {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #2f2f31;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 0.11rem;
+}
+
+.keybord .fourth-bord .gogo {
+  width: 1.65rem;
+  height: 0.86rem;
+  float: left;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord .sjtsjt {
+  width: 0.86rem;
+  height: 0.86rem;
+  float: left;
+  background: #545556;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+}
+
+.keybord .fourth-bord .gogo2 {
+  width: 1.65rem;
+  height: 0.86rem;
+  float: left;
+  text-align: center;
+  line-height: 0.86rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 0.115rem;
+  background: #007aff;
+}
+
+#ck {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+#tc-profile {
+  width: 5rem;
+  height: 3rem;
+  background: #Fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 5.5rem;
+  z-index: 2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+#tc-profile .small-dian {
+  width: 1.5rem;
+  height: 0.06rem;
+  float: left;
+}
+
+#tc-profile .small-dian .xiao-one {
+  width: 0.1rem;
+  height: 0.06rem;
+  background: #29dcbc;
+  border-radius: 0.3rem;
+  float: left;
+  margin-right: 0.1rem;
+}
+
+#tc-profile .sex-select {
+  width: 100;
+  height: 1rem;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+#tc-profile .sex-select p {
+  font-size: 17px;
+  color: #000;
+}
+
+#tc-profile .sex-select span {
+  font-size: 12px;
+}
+
+#tc-profile #bottom {
+  width: 100%;
+  height: 1rem;
+}
+
+#tc-profile #bottom #qx {
+  width: 2rem;
+  height: 0.7rem;
+  border: 1px solid #91EEC4;
+  border-radius: 50px;
+  margin-left: 15px;
+  position: relative;
+  text-align: center;
+  line-height: 0.7rem;
+  float: left;
+}
+
+#tc-profile #bottom #qx .Yuan {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #91EEC4;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+#tc-profile #bottom #qx .Yuan:nth-of-type(2) {
+  left: 85px;
+}
+
+#tc-profile #bottom #sure {
+  width: 2rem;
+  height: 0.7rem;
+  background: #28DD8B;
+  border-radius: 50px;
+  margin-left: 15px;
+  position: relative;
+  text-align: center;
+  line-height: 0.7rem;
+  float: left;
+}
+
+#tc-profile #bottom #sure .Yuan {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+#tc-profile #bottom #sure .Yuan:nth-of-type(2) {
+  left: 85px;
+}
+
+#tc-profile .small-dian:nth-of-type(2) {
+  float: right;
+}
+
+#tc-profile .small-dian:nth-of-type(2) .xiao-one {
+  float: right;
+  margin-left: 0.1rem;
+  margin-right: 0;
+}
+
+#tc-profile .tc-profile-top {
+  width: 100%;
+  height: 0.7rem;
+  background: #29dcbc;
+}
+
+#tc-profile .tc-profile-top .profile-top-left {
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  background: #fff;
+  float: left;
+  color: #29dcbc;
+  margin-top: 0.13rem;
+  margin-left: 0.7rem;
+  border-radius: 50%;
+}
+
+#tc-profile .tc-profile-top .profile-top-mid {
+  width: 3rem;
+  height: 0.25rem;
+  float: left;
+  margin-left: 0.15rem;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 0.06rem;
+}
+
+#tc-profile .tc-profile-top .english {
+  height: 0.2rem;
+  font-size: 8px;
+  margin-top: 0.1rem;
+}
+
+#tc-profile .tc-profile-mid {
+  width: 100%;
+  height: 0.8rem;
+}
+
+#tc-profile .tc-profile-mid .setting-list {
+  width: 100%;
+  height: 0.8rem;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+  margin-top: 0.1rem;
+}
+
+#tc-profile .tc-profile-mid .setting-list .set-list-left {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  background: #3acdfd;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 0.15rem;
+  text-align: center;
+}
+
+#tc-profile .tc-profile-mid .setting-list .leftthree {
+  background: #3afd9a;
+}
+
+#tc-profile .tc-profile-mid .setting-list .set-list-mid {
+  width: 3rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#tc-profile .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top {
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  color: #333;
+  font-size: 16px;
+}
+
+#tc-profile .tc-profile-mid .setting-list .set-list-mid .s-list-mid-top:nth-of-type(2) {
+  font-size: 9px;
+  height: 0.2rem;
+  margin-top: 0.05rem;
+  color: #999;
+}
+
+#tc-profile .tc-profile-mid .setting-list:nth-of-type(2) {
+  border: 0;
+}
