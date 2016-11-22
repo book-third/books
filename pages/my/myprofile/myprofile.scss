@@ -12,18 +12,24 @@
     .material-left{
         width:0.5rem;
         height:0.5rem;
-        line-height: 0.5rem;
-        font-size:18px;
-        color:#5dbbe3;
+        line-height: 0.01rem;
         position:absolute;
-        left:10px;
+        left:20px;
         bottom:0;
         margin:auto;
         background:#fff;
-        border:1px solid #076cbe;
+        border:2px solid #076cbe;
         border-radius:50%;
         top:0;
         text-align: center;
+        a{
+          color:#5dbbe3;
+          font-size: 16px;
+          text-align: center; 
+//            margin-left: 1px;
+          display: block;
+          line-height: 0.5rem;
+        }
     }
     .material-middle{
         width:6rem;
@@ -247,7 +253,7 @@
             top:0;
             bottom:0;
             margin:auto;
-            background:url(../../img/ren5.jpg)no-repeat;
+            background:url(../../../imgs/7.jpg)no-repeat;
             background-size:100% 100%;
             border:2px solid #fff;
             box-shadow:0 0 10px rgba(0,0,0,0.2);
