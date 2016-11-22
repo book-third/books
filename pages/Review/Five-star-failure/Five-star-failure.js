@@ -1,3 +1,3 @@
-app.controller('Five-star',['$scope',function($scope){
+app.controller('Five-star-failureCtrl',['$scope',function($scope){
 
 }])

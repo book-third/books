@@ -68,6 +68,24 @@ app.config(['$routeProvider',function($routeProvider){
 		}).when("/bookshelf",{
 			templateUrl:"pages/bookjia/bookshelf/bookshelf.html",
 			controller:"bookshelfCtrl"
+		}).when('/Bookmark',{//贾震宇
+			templateUrl:'pages/Review/Bookmark/Bookmark.hrml',
+			controller:'BookmarkCtrl'
+		}).when('/BookReview',{
+			templateUrl:'pages/Review/BookReview/BookReview.hrml',
+			controller:'BookReviewCtrl'			
+		}).when('/Five-star',{
+			templateUrl:'pages/Review/Five-star/Five-star.hrml',
+			controller:'Five-starCtrl'				
+		}).when('/Five-star-failure',{
+			templateUrl:'pages/Review/Five-star-failure/Five-star-failure.hrml',
+			controller:'Five-star-failureCtrl'				
+		}).when('/management',{
+			templateUrl:'pages/Review/management/management.hrml',
+			controller:'managementCtrl'				
+		}).when('/pageMain',{
+			templateUrl:'pages/Review/pageMain/pageMain.hrml',
+			controller:'pageMainCtrl'				
 		})
 		
 		
