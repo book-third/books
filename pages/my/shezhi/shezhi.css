@@ -532,17 +532,15 @@
       height: 0.5rem;
       border-radius: 25px;
       border: 2px solid #28DD8B;
-      position: absolute;
-      left: 20px;
-      bottom: 0.6rem; }
+      margin-left: 20px; }
       #box1 .tc-profile2 .anniu-left .cir1 {
         width: 5px;
         height: 5px;
         border-radius: 50%;
         background: #28DD8B;
-        margin-left: 8px;
-        margin-top: 10px;
-        float: left; }
+        position: absolute;
+        left: 8px;
+        top: 6px; }
       #box1 .tc-profile2 .anniu-left .TIT {
         width: 30px;
         height: 100%;
@@ -551,7 +549,7 @@
         font-size: 12px;
         float: left;
         margin-left: 3px; }
-      #box1 .tc-profile2 .anniu-left .cir1 {
+      #box1 .tc-profile2 .anniu-left .cir2 {
         float: left;
         margin-right: 8px; }
     #box1 .tc-profile2 .anniu-right {
